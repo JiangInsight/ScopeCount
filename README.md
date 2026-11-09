@@ -1,21 +1,30 @@
 # ScopeCount
 
-Exact grouped completeness audits from score margins and boundary prefixes.
+A DuckDB extension for *Exact Grouped Completeness Audits from Score Margins and Boundary Prefixes*.
 
-<img src="figures/group-scores.png" width="660" alt="Across twelve rows, boundary prefixes recover group scores A = 7, B = 2 and C = 4.">
+<img src="figures/group-scores.png" width="590" alt="Boundary prefixes recover missing-field totals for three groups across twelve rows.">
 
-ScopeCount reads Parquet validity information through DuckDB. Known group sizes and boundary prefixes recover the number of missing fields for each group.
+### Run an audit
 
-**Weekly and hourly traffic-stop audits**
+On x64 Windows with Visual Studio C++ Build Tools and Python 3.11–3.13:
 
-![SQL time divided by operator time for each audit period. Circles denote the resident word cover and triangles the file prefix operator.](figures/audit-periods.png)
-
-In a separate ten-round comparison, the file prefix operator won **24 of 25** queries. Its per-query medians summed to **3.32 s**, versus **4.09 s** when choosing the fastest of SQL, dense rank, CRoaring and packed row scores separately for each query.
-
-Load the extension and check six plans against grouped SQL on x64 Windows with Python 3.11–3.13 and Visual Studio C++ Build Tools:
-
-~~~powershell
+```powershell
 python -m pip install -r requirements.txt
 python build.py
 python run_example.py
-~~~
+```
+
+The [example](run_example.py) writes a small Parquet file and loads the extension. This is the prepared DuckDB query for the endpoint plan. Its parameters are the first row, the exclusive end row and the file path.
+
+```sql
+SELECT unnest(scope_page_counts(content, 0, '2/0,4/0', ?, ?, 'endpoint'))
+FROM read_blob(?);
+```
+
+All six plans return the same group counts as SQL on the four example intervals.
+
+### Audit results
+
+![Group audit times for weekly and hourly periods relative to DuckDB SQL.](figures/audit-periods.png)
+
+Over ten rounds on the 25 weekly and hourly traffic-stop queries, the endpoint plan had the lowest median time on 24. Its per-query medians summed to **3.32 s**. Choosing the fastest of SQL, dense rank, CRoaring and packed row scores separately for each query gave **4.09 s**. [Trial timings](data/file-trials.tsv)
