@@ -1,0 +1,17 @@
+dataset	method	row_groups	decoded	certified	skipped_words
+oh_statewide-week	dense	59	529	356	0
+oh_statewide-week	roaring	59	529	356	0
+oh_statewide-week	packed	59	529	356	0
+oh_statewide-week	endpoint	59	529	356	0
+oh_statewide-hour	dense	59	529	356	0
+oh_statewide-hour	roaring	59	529	356	0
+oh_statewide-hour	packed	59	529	356	0
+oh_statewide-hour	endpoint	59	529	356	0
+wa_statewide-week	dense	93	1023	465	0
+wa_statewide-week	roaring	93	1023	465	0
+wa_statewide-week	packed	93	1023	465	0
+wa_statewide-week	endpoint	93	1023	465	0
+wa_statewide-hour	dense	93	1023	465	0
+wa_statewide-hour	roaring	93	1023	465	0
+wa_statewide-hour	packed	93	1023	465	0
+wa_statewide-hour	endpoint	93	1023	465	0

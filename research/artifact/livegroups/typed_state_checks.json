@@ -1,0 +1,69 @@
+[
+  {
+    "dataset": "oh_statewide",
+    "rows": 7225577,
+    "schema": {
+      "week": "uint32",
+      "hour": "uint32",
+      "v_date": "date32[day]",
+      "v_subject_race": "string",
+      "v_outcome": "string",
+      "v_location": "string",
+      "v_time": "time64[us]",
+      "v_subject_sex": "string",
+      "v_lat": "double",
+      "v_lng": "double",
+      "v_warning_issued": "bool",
+      "v_arrest_made": "bool",
+      "v_search_conducted": "bool",
+      "v_violation": "string",
+      "v_officer_id_hash": "string",
+      "v_contraband_found": "bool",
+      "v_search_basis": "string",
+      "v_county_name": "string"
+    },
+    "typed_bytes": 188999756,
+    "normalized_bytes": 4437089,
+    "sha256": "3ddbb1b6280af836ff9c82f02477969301d76063c55356d61e9336c95ecefa39",
+    "conversion_seconds": 41.129958699981216,
+    "matched_masks": 16,
+    "matched_keys": [
+      "hour",
+      "week"
+    ]
+  },
+  {
+    "dataset": "wa_statewide",
+    "rows": 11333425,
+    "schema": {
+      "week": "uint32",
+      "hour": "uint32",
+      "v_date": "date32[day]",
+      "v_subject_race": "string",
+      "v_outcome": "string",
+      "v_location": "string",
+      "v_time": "time64[us]",
+      "v_subject_sex": "string",
+      "v_citation_issued": "bool",
+      "v_subject_age": "int64",
+      "v_lat": "double",
+      "v_lng": "double",
+      "v_warning_issued": "bool",
+      "v_arrest_made": "bool",
+      "v_search_conducted": "bool",
+      "v_violation": "string",
+      "v_contraband_found": "bool",
+      "v_search_basis": "string",
+      "v_county_name": "string"
+    },
+    "typed_bytes": 117233043,
+    "normalized_bytes": 20479915,
+    "sha256": "3675bd6b38211c887475ec178d04d380ff0f8add703a291d872b1ccc02c9bc74",
+    "conversion_seconds": 63.25430500000948,
+    "matched_masks": 17,
+    "matched_keys": [
+      "hour",
+      "week"
+    ]
+  }
+]

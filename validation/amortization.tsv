@@ -1,0 +1,225 @@
+suite	dataset	method	reference	replicates	requests	paid_ms	reference_paid_ms	paired_delta_ms	sustained_crossing	p50_ms	p95_ms	p99_ms
+ci	mdb-1018-routes	bitmap_direct	sql_opt	1	40	9.491	4.7914	4.6996		0.18819999999999998	0.2804	0.3828279999999999
+ci	mdb-1018-routes	bitmap_direct_memo	sql_opt_memo	1	40	1.7327	0.4762	1.2565		0.0007	0.0013449999999999975	0.26761099999999977
+ci	mdb-1018-routes	online_direct	sql_opt	1	40	10.3334	4.7914	5.542		0.21685	0.3064749999999999	0.39190099999999994
+ci	mdb-1018-routes	online_direct	bitmap_direct	1	40	10.3334	9.491	0.8424		0.21685	0.3064749999999999	0.39190099999999994
+ci	mdb-1018-routes	roaring_direct	sql_opt	1	40	9.7785	4.7914	4.9871		0.19965	0.3237549999999997	0.427791
+ci	mdb-1018-routes	roaring_direct	bitmap_direct	1	40	9.7785	9.491	0.2875		0.19965	0.3237549999999997	0.427791
+ci	mdb-1018-routes	roaring_direct_memo	sql_opt_memo	1	40	2.0394	0.4762	1.5632		0.0007	0.0028049999999999998	0.2978959999999997
+ci	mdb-1018-routes	roaring_direct_memo	bitmap_direct_memo	1	40	2.0394	1.7327	0.3067		0.0007	0.0028049999999999998	0.2978959999999997
+ci	mdb-1018-routes	sql_opt	bitmap_direct	1	40	4.7914	9.491	-4.6996	1.0	0.091	0.2543149999999994	0.49232899999999996
+ci	mdb-1018-routes	sql_opt_memo	bitmap_direct_memo	1	40	0.4762	1.7327	-1.2565	1.0	0.0008	0.0017299999999999982	0.2713709999999998
+ci	mdb-1018-routes	tree_direct	sql_opt	1	40	9.8475	4.7914	5.0561		0.19175	0.3056249999999996	0.446944
+ci	mdb-1018-routes	tree_direct	bitmap_direct	1	40	9.8475	9.491	0.3565		0.19175	0.3056249999999996	0.446944
+ci	mdb-1018-routes	tree_direct_memo	sql_opt_memo	1	40	1.9025	0.4762	1.4263		0.0008	0.001939999999999992	0.3055129999999997
+ci	mdb-1018-routes	tree_direct_memo	bitmap_direct_memo	1	40	1.9025	1.7327	0.1698		0.0008	0.001939999999999992	0.3055129999999997
+ci	mdb-1162-routes	bitmap_direct	sql_opt	1	40	10.5947	3.7067	6.888		0.20679999999999998	0.24994999999999973	0.40729099999999996
+ci	mdb-1162-routes	bitmap_direct_memo	sql_opt_memo	1	40	2.0331	0.5241	1.509		0.0008	0.0017199999999999989	0.37023499999999965
+ci	mdb-1162-routes	online_direct	sql_opt	1	40	10.5354	3.7067	6.8287		0.2198	0.3000349999999998	0.5065939999999999
+ci	mdb-1162-routes	online_direct	bitmap_direct	1	40	10.5354	10.5947	-0.0593	1.0	0.2198	0.3000349999999998	0.5065939999999999
+ci	mdb-1162-routes	roaring_direct	sql_opt	1	40	10.4604	3.7067	6.7537		0.20505	0.43596	0.458032
+ci	mdb-1162-routes	roaring_direct	bitmap_direct	1	40	10.4604	10.5947	-0.1343	1.0	0.20505	0.43596	0.458032
+ci	mdb-1162-routes	roaring_direct_memo	sql_opt_memo	1	40	1.5222	0.5241	0.9981		0.0008	0.0011449999999999976	0.2592369999999998
+ci	mdb-1162-routes	roaring_direct_memo	bitmap_direct_memo	1	40	1.5222	2.0331	-0.5109	1.0	0.0008	0.0011449999999999976	0.2592369999999998
+ci	mdb-1162-routes	sql_opt	bitmap_direct	1	40	3.7067	10.5947	-6.888	1.0	0.07325000000000001	0.15874499999999975	0.40031099999999986
+ci	mdb-1162-routes	sql_opt_memo	bitmap_direct_memo	1	40	0.5241	2.0331	-1.509	1.0	0.0008	0.002059999999999991	0.29954699999999973
+ci	mdb-1162-routes	tree_direct	sql_opt	1	40	10.2062	3.7067	6.4995		0.19595	0.3553599999999996	0.6450229999999999
+ci	mdb-1162-routes	tree_direct	bitmap_direct	1	40	10.2062	10.5947	-0.3885	1.0	0.19595	0.3553599999999996	0.6450229999999999
+ci	mdb-1162-routes	tree_direct_memo	sql_opt_memo	1	40	1.7757	0.5241	1.2516		0.0008	0.0010499999999999971	0.29894799999999977
+ci	mdb-1162-routes	tree_direct_memo	bitmap_direct_memo	1	40	1.7757	2.0331	-0.2574	1.0	0.0008	0.0010499999999999971	0.29894799999999977
+ci	mdb-1179-routes	bitmap_direct	sql_opt	1	40	11.5103	9.5772	1.9331		0.216	0.42882	0.506706
+ci	mdb-1179-routes	bitmap_direct_memo	sql_opt_memo	1	40	3.5228	1.0459	2.4769		0.0008	0.0012449999999999974	0.6865199999999994
+ci	mdb-1179-routes	online_direct	sql_opt	1	40	9.7939	9.5772	0.2167		0.2007	0.3153449999999998	0.39744399999999996
+ci	mdb-1179-routes	online_direct	bitmap_direct	1	40	9.7939	11.5103	-1.7164	1.0	0.2007	0.3153449999999998	0.39744399999999996
+ci	mdb-1179-routes	roaring_direct	sql_opt	1	40	15.702	9.5772	6.1248		0.20325	1.0411299999999994	1.4392019999999996
+ci	mdb-1179-routes	roaring_direct	bitmap_direct	1	40	15.702	11.5103	4.1917		0.20325	1.0411299999999994	1.4392019999999996
+ci	mdb-1179-routes	roaring_direct_memo	sql_opt_memo	1	40	2.0323	1.0459	0.9864		0.0008	0.0031049999999999828	0.3067019999999997
+ci	mdb-1179-routes	roaring_direct_memo	bitmap_direct_memo	1	40	2.0323	3.5228	-1.4905	1.0	0.0008	0.0031049999999999828	0.3067019999999997
+ci	mdb-1179-routes	sql_opt	bitmap_direct	1	40	9.5772	11.5103	-1.9331	30.0	0.1374	0.6696549999999997	1.0204019999999998
+ci	mdb-1179-routes	sql_opt_memo	bitmap_direct_memo	1	40	1.0459	3.5228	-2.4769	1.0	0.0025	0.006854999999999991	0.5738059999999995
+ci	mdb-1179-routes	tree_direct	sql_opt	1	40	10.5889	9.5772	1.0117		0.2013	0.38725999999999994	0.4234
+ci	mdb-1179-routes	tree_direct	bitmap_direct	1	40	10.5889	11.5103	-0.9214	1.0	0.2013	0.38725999999999994	0.4234
+ci	mdb-1179-routes	tree_direct_memo	sql_opt_memo	1	40	1.8142	1.0459	0.7683		0.0008	0.0011449999999999976	0.28076999999999974
+ci	mdb-1179-routes	tree_direct_memo	bitmap_direct_memo	1	40	1.8142	3.5228	-1.7086	1.0	0.0008	0.0011449999999999976	0.28076999999999974
+ci	mdb-2165-trips	bitmap_direct	sql_opt	1	40	10.8928	3.501	7.3918		0.2247	0.27540999999999993	0.5067669999999997
+ci	mdb-2165-trips	bitmap_direct_memo	sql_opt_memo	1	40	1.8339	0.4872	1.3467		0.0009	0.0022999999999999943	0.3219489999999997
+ci	mdb-2165-trips	online_direct	sql_opt	1	40	10.8253	3.501	7.3243		0.20725	0.42874499999999965	0.556681
+ci	mdb-2165-trips	online_direct	bitmap_direct	1	40	10.8253	10.8928	-0.0675	15.0	0.20725	0.42874499999999965	0.556681
+ci	mdb-2165-trips	roaring_direct	sql_opt	1	40	11.2678	3.501	7.7668		0.22794999999999999	0.31703999999999916	0.599479
+ci	mdb-2165-trips	roaring_direct	bitmap_direct	1	40	11.2678	10.8928	0.375		0.22794999999999999	0.31703999999999916	0.599479
+ci	mdb-2165-trips	roaring_direct_memo	sql_opt_memo	1	40	2.4029	0.4872	1.9157		0.001	0.0032199999999999816	0.5095609999999995
+ci	mdb-2165-trips	roaring_direct_memo	bitmap_direct_memo	1	40	2.4029	1.8339	0.569		0.001	0.0032199999999999816	0.5095609999999995
+ci	mdb-2165-trips	sql_opt	bitmap_direct	1	40	3.501	10.8928	-7.3918	1.0	0.07039999999999999	0.11361999999999996	0.40638399999999975
+ci	mdb-2165-trips	sql_opt_memo	bitmap_direct_memo	1	40	0.4872	1.8339	-1.3467	1.0	0.0009	0.0018149999999999991	0.27537999999999974
+ci	mdb-2165-trips	tree_direct	sql_opt	1	40	12.2949	3.501	8.7939		0.2326	0.3406249999999997	0.9100289999999995
+ci	mdb-2165-trips	tree_direct	bitmap_direct	1	40	12.2949	10.8928	1.4021		0.2326	0.3406249999999997	0.9100289999999995
+ci	mdb-2165-trips	tree_direct_memo	sql_opt_memo	1	40	1.924	0.4872	1.4368		0.0009	0.003129999999999936	0.29848999999999976
+ci	mdb-2165-trips	tree_direct_memo	bitmap_direct_memo	1	40	1.924	1.8339	0.0901		0.0009	0.003129999999999936	0.29848999999999976
+ci	mdb-2794-trips	bitmap_direct	sql_opt	1	40	10.953	3.6237	7.3293		0.2264	0.3587249999999999	0.44398699999999997
+ci	mdb-2794-trips	bitmap_direct_memo	sql_opt_memo	1	40	1.4584	0.651	0.8074		0.0009	0.001449999999999997	0.27799799999999975
+ci	mdb-2794-trips	online_direct	sql_opt	1	40	12.3266	3.6237	8.7029		0.21595	0.5319749999999998	0.627971
+ci	mdb-2794-trips	online_direct	bitmap_direct	1	40	12.3266	10.953	1.3736		0.21595	0.5319749999999998	0.627971
+ci	mdb-2794-trips	roaring_direct	sql_opt	1	40	11.1344	3.6237	7.5107		0.226	0.3303	0.4273439999999999
+ci	mdb-2794-trips	roaring_direct	bitmap_direct	1	40	11.1344	10.953	0.1814		0.226	0.3303	0.4273439999999999
+ci	mdb-2794-trips	roaring_direct_memo	sql_opt_memo	1	40	1.5116	0.651	0.8606		0.001	0.0027149999999999935	0.2789119999999997
+ci	mdb-2794-trips	roaring_direct_memo	bitmap_direct_memo	1	40	1.5116	1.4584	0.0532		0.001	0.0027149999999999935	0.2789119999999997
+ci	mdb-2794-trips	sql_opt	bitmap_direct	1	40	3.6237	10.953	-7.3293	1.0	0.06789999999999999	0.16801499999999997	0.32919299999999985
+ci	mdb-2794-trips	sql_opt_memo	bitmap_direct_memo	1	40	0.651	1.4584	-0.8074	1.0	0.001	0.0017749999999999958	0.37316499999999964
+ci	mdb-2794-trips	tree_direct	sql_opt	1	40	12.9031	3.6237	9.2794		0.2097	0.894965	0.9393130000000001
+ci	mdb-2794-trips	tree_direct	bitmap_direct	1	40	12.9031	10.953	1.9501		0.2097	0.894965	0.9393130000000001
+ci	mdb-2794-trips	tree_direct_memo	sql_opt_memo	1	40	1.5736	0.651	0.9226		0.001	0.0025099999999999936	0.30020599999999975
+ci	mdb-2794-trips	tree_direct_memo	bitmap_direct_memo	1	40	1.5736	1.4584	0.1152		0.001	0.0025099999999999936	0.30020599999999975
+ci	mdb-2898-trips	bitmap_direct	sql_opt	1	40	22.9757	19.1034	3.8723		0.2115	0.368475	0.4689029999999999
+ci	mdb-2898-trips	bitmap_direct_memo	sql_opt_memo	1	40	10.999	0.8724	10.1266		0.001	0.0024249999999999927	0.3399949999999997
+ci	mdb-2898-trips	online_direct	sql_opt	1	40	57.3074	19.1034	38.204		0.21395	0.33137499999999986	0.4734039999999999
+ci	mdb-2898-trips	online_direct	bitmap_direct	1	40	57.3074	22.9757	34.3317		0.21395	0.33137499999999986	0.4734039999999999
+ci	mdb-2898-trips	roaring_direct	sql_opt	1	40	22.0199	19.1034	2.9165		0.20975	0.5026149999999999	0.548444
+ci	mdb-2898-trips	roaring_direct	bitmap_direct	1	40	22.0199	22.9757	-0.9558	1.0	0.20975	0.5026149999999999	0.548444
+ci	mdb-2898-trips	roaring_direct_memo	sql_opt_memo	1	40	11.7803	0.8724	10.9079		0.001	0.002114999999999999	0.3339349999999997
+ci	mdb-2898-trips	roaring_direct_memo	bitmap_direct_memo	1	40	11.7803	10.999	0.7813		0.001	0.002114999999999999	0.3339349999999997
+ci	mdb-2898-trips	sql_opt	bitmap_direct	1	40	19.1034	22.9757	-3.8723	1.0	0.4229	0.847525	0.9876309999999999
+ci	mdb-2898-trips	sql_opt_memo	bitmap_direct_memo	1	40	0.8724	10.999	-10.1266	1.0	0.0009	0.0015649999999999963	0.5092219999999995
+ci	mdb-2898-trips	tree_direct	sql_opt	1	40	59.9054	19.1034	40.802		0.21305000000000002	0.2851749999999992	0.5978279999999999
+ci	mdb-2898-trips	tree_direct	bitmap_direct	1	40	59.9054	22.9757	36.9297		0.21305000000000002	0.2851749999999992	0.5978279999999999
+ci	mdb-2898-trips	tree_direct_memo	sql_opt_memo	1	40	48.4223	0.8724	47.5499		0.001	0.002459999999999991	0.3772949999999996
+ci	mdb-2898-trips	tree_direct_memo	bitmap_direct_memo	1	40	48.4223	10.999	37.4233		0.001	0.002459999999999991	0.3772949999999996
+ci	mdb-2904-routes	bitmap_direct	sql_opt	1	40	10.6201	4.2189	6.4012		0.2121	0.31972999999999985	0.47146599999999994
+ci	mdb-2904-routes	bitmap_direct_memo	sql_opt_memo	1	40	2.1509	0.503	1.6479		0.0008	0.002759999999999997	0.3066429999999997
+ci	mdb-2904-routes	online_direct	sql_opt	1	40	11.4464	4.2189	7.2275		0.2163	0.4025099999999998	0.530749
+ci	mdb-2904-routes	online_direct	bitmap_direct	1	40	11.4464	10.6201	0.8263		0.2163	0.4025099999999998	0.530749
+ci	mdb-2904-routes	roaring_direct	sql_opt	1	40	11.5382	4.2189	7.3193		0.23105	0.483075	0.5077499999999999
+ci	mdb-2904-routes	roaring_direct	bitmap_direct	1	40	11.5382	10.6201	0.9181		0.23105	0.483075	0.5077499999999999
+ci	mdb-2904-routes	roaring_direct_memo	sql_opt_memo	1	40	1.8139	0.503	1.3109		0.0008	0.0017399999999999976	0.31603999999999965
+ci	mdb-2904-routes	roaring_direct_memo	bitmap_direct_memo	1	40	1.8139	2.1509	-0.337	1.0	0.0008	0.0017399999999999976	0.31603999999999965
+ci	mdb-2904-routes	sql_opt	bitmap_direct	1	40	4.2189	10.6201	-6.4012	1.0	0.09355	0.11143999999999996	0.33282999999999985
+ci	mdb-2904-routes	sql_opt_memo	bitmap_direct_memo	1	40	0.503	2.1509	-1.6479	1.0	0.0008	0.001749999999999997	0.2870819999999997
+ci	mdb-2904-routes	tree_direct	sql_opt	1	40	9.7448	4.2189	5.5259		0.2042	0.22914999999999994	0.4321269999999998
+ci	mdb-2904-routes	tree_direct	bitmap_direct	1	40	9.7448	10.6201	-0.8753	1.0	0.2042	0.22914999999999994	0.4321269999999998
+ci	mdb-2904-routes	tree_direct_memo	sql_opt_memo	1	40	1.8686	0.503	1.3656		0.0008	0.0012599999999999966	0.29318699999999975
+ci	mdb-2904-routes	tree_direct_memo	bitmap_direct_memo	1	40	1.8686	2.1509	-0.2823	1.0	0.0008	0.0012599999999999966	0.29318699999999975
+ci	mdb-86-routes	bitmap_direct	sql_opt	1	40	11.4219	3.2876	8.1343		0.19835	0.4692449999999988	1.0706689999999996
+ci	mdb-86-routes	bitmap_direct_memo	sql_opt_memo	1	40	1.5556	0.4681	1.0875		0.0007	0.0011449999999999976	0.2683869999999997
+ci	mdb-86-routes	online_direct	sql_opt	1	40	10.503	3.2876	7.2154		0.2046	0.38186499999999995	0.406788
+ci	mdb-86-routes	online_direct	bitmap_direct	1	40	10.503	11.4219	-0.9189	17.0	0.2046	0.38186499999999995	0.406788
+ci	mdb-86-routes	roaring_direct	sql_opt	1	40	9.6111	3.2876	6.3235		0.1992	0.3181999999999999	0.378429
+ci	mdb-86-routes	roaring_direct	bitmap_direct	1	40	9.6111	11.4219	-1.8108	1.0	0.1992	0.3181999999999999	0.378429
+ci	mdb-86-routes	roaring_direct_memo	sql_opt_memo	1	40	1.5932	0.4681	1.1251		0.0008	0.0023749999999999956	0.25890199999999974
+ci	mdb-86-routes	roaring_direct_memo	bitmap_direct_memo	1	40	1.5932	1.5556	0.0376		0.0008	0.0023749999999999956	0.25890199999999974
+ci	mdb-86-routes	sql_opt	bitmap_direct	1	40	3.2876	11.4219	-8.1343	1.0	0.07125000000000001	0.09127499999999994	0.3143509999999998
+ci	mdb-86-routes	sql_opt_memo	bitmap_direct_memo	1	40	0.4681	1.5556	-1.0875	1.0	0.0008	0.0022499999999999972	0.2653779999999998
+ci	mdb-86-routes	tree_direct	sql_opt	1	40	11.7271	3.2876	8.4395		0.20585	0.65775	0.758299
+ci	mdb-86-routes	tree_direct	bitmap_direct	1	40	11.7271	11.4219	0.3052		0.20585	0.65775	0.758299
+ci	mdb-86-routes	tree_direct_memo	sql_opt_memo	1	40	1.7492	0.4681	1.2811		0.0008	0.001154999999999997	0.25961999999999974
+ci	mdb-86-routes	tree_direct_memo	bitmap_direct_memo	1	40	1.7492	1.5556	0.1936		0.0008	0.001154999999999997	0.25961999999999974
+transport	10230-routes	bitmap_direct	sql_opt	1	1	1.274	0.2599	1.0141		0.3988	0.3988	0.3988
+transport	10230-routes	bitmap_direct_memo	sql_opt_memo	1	1	1.3027	0.2797	1.023		0.4016	0.4016	0.4016
+transport	10230-routes	online_direct	sql_opt	1	1	1.337	0.2599	1.0771		0.4232	0.4232	0.4232
+transport	10230-routes	online_direct	bitmap_direct	1	1	1.337	1.274	0.063		0.4232	0.4232	0.4232
+transport	10230-routes	roaring_direct	sql_opt	1	1	1.5112	0.2599	1.2513		0.3799	0.3799	0.3799
+transport	10230-routes	roaring_direct	bitmap_direct	1	1	1.5112	1.274	0.2372		0.3799	0.3799	0.3799
+transport	10230-routes	roaring_direct_memo	sql_opt_memo	1	1	1.3757	0.2797	1.096		0.3841	0.3841	0.3841
+transport	10230-routes	roaring_direct_memo	bitmap_direct_memo	1	1	1.3757	1.3027	0.073		0.3841	0.3841	0.3841
+transport	10230-routes	sql_opt	bitmap_direct	1	1	0.2599	1.274	-1.0141	1.0	0.2599	0.2599	0.2599
+transport	10230-routes	sql_opt_memo	bitmap_direct_memo	1	1	0.2797	1.3027	-1.023	1.0	0.2797	0.2797	0.2797
+transport	10230-routes	tree_direct	sql_opt	1	1	1.7343	0.2599	1.4744		0.3838	0.3838	0.3838
+transport	10230-routes	tree_direct	bitmap_direct	1	1	1.7343	1.274	0.4603		0.3838	0.3838	0.3838
+transport	10230-routes	tree_direct_memo	sql_opt_memo	1	1	2.1559	0.2797	1.8762		0.5098	0.5098	0.5098
+transport	10230-routes	tree_direct_memo	bitmap_direct_memo	1	1	2.1559	1.3027	0.8532		0.5098	0.5098	0.5098
+transport	39599-routes	bitmap_direct	sql_opt	1	1	1.2412	0.3885	0.8527		0.386	0.386	0.386
+transport	39599-routes	bitmap_direct_memo	sql_opt_memo	1	1	1.2227	0.2571	0.9656		0.4002	0.4002	0.4002
+transport	39599-routes	online_direct	sql_opt	1	1	1.6563	0.3885	1.2678		0.7932	0.7932	0.7932
+transport	39599-routes	online_direct	bitmap_direct	1	1	1.6563	1.2412	0.4151		0.7932	0.7932	0.7932
+transport	39599-routes	roaring_direct	sql_opt	1	1	1.2374	0.3885	0.8489		0.3775	0.3775	0.3775
+transport	39599-routes	roaring_direct	bitmap_direct	1	1	1.2374	1.2412	-0.0038	1.0	0.3775	0.3775	0.3775
+transport	39599-routes	roaring_direct_memo	sql_opt_memo	1	1	1.8323	0.2571	1.5752		0.4778	0.4778	0.4778
+transport	39599-routes	roaring_direct_memo	bitmap_direct_memo	1	1	1.8323	1.2227	0.6096		0.4778	0.4778	0.4778
+transport	39599-routes	sql_opt	bitmap_direct	1	1	0.3885	1.2412	-0.8527	1.0	0.3885	0.3885	0.3885
+transport	39599-routes	sql_opt_memo	bitmap_direct_memo	1	1	0.2571	1.2227	-0.9656	1.0	0.2571	0.2571	0.2571
+transport	39599-routes	tree_direct	sql_opt	1	1	1.2639	0.3885	0.8754		0.3793	0.3793	0.3793
+transport	39599-routes	tree_direct	bitmap_direct	1	1	1.2639	1.2412	0.0227		0.3793	0.3793	0.3793
+transport	39599-routes	tree_direct_memo	sql_opt_memo	1	1	1.4485	0.2571	1.1914		0.419	0.419	0.419
+transport	39599-routes	tree_direct_memo	bitmap_direct_memo	1	1	1.4485	1.2227	0.2258		0.419	0.419	0.419
+transport	79810-routes	bitmap_direct	sql_opt	1	1	1.4078	0.3125	1.0953		0.37	0.37	0.37
+transport	79810-routes	bitmap_direct_memo	sql_opt_memo	1	1	1.5298	0.264	1.2658		0.4272	0.4272	0.4272
+transport	79810-routes	online_direct	sql_opt	1	1	1.5672	0.3125	1.2547		0.3919	0.3919	0.3919
+transport	79810-routes	online_direct	bitmap_direct	1	1	1.5672	1.4078	0.1594		0.3919	0.3919	0.3919
+transport	79810-routes	roaring_direct	sql_opt	1	1	1.4626	0.3125	1.1501		0.3962	0.3962	0.3962
+transport	79810-routes	roaring_direct	bitmap_direct	1	1	1.4626	1.4078	0.0548		0.3962	0.3962	0.3962
+transport	79810-routes	roaring_direct_memo	sql_opt_memo	1	1	1.4329	0.264	1.1689		0.3875	0.3875	0.3875
+transport	79810-routes	roaring_direct_memo	bitmap_direct_memo	1	1	1.4329	1.5298	-0.0969	1.0	0.3875	0.3875	0.3875
+transport	79810-routes	sql_opt	bitmap_direct	1	1	0.3125	1.4078	-1.0953	1.0	0.3125	0.3125	0.3125
+transport	79810-routes	sql_opt_memo	bitmap_direct_memo	1	1	0.264	1.5298	-1.2658	1.0	0.264	0.264	0.264
+transport	79810-routes	tree_direct	sql_opt	1	1	1.3849	0.3125	1.0724		0.3748	0.3748	0.3748
+transport	79810-routes	tree_direct	bitmap_direct	1	1	1.3849	1.4078	-0.0229	1.0	0.3748	0.3748	0.3748
+transport	79810-routes	tree_direct_memo	sql_opt_memo	1	1	1.5368	0.264	1.2728		0.4223	0.4223	0.4223
+transport	79810-routes	tree_direct_memo	bitmap_direct_memo	1	1	1.5368	1.5298	0.007		0.4223	0.4223	0.4223
+transport	80921-trips	bitmap_direct	sql_opt	1	1	4.7509	0.3915	4.3594		0.6914	0.6914	0.6914
+transport	80921-trips	bitmap_direct_memo	sql_opt_memo	1	1	4.4926	0.4602	4.0324		0.4453	0.4453	0.4453
+transport	80921-trips	online_direct	sql_opt	1	1	10.0603	0.3915	9.6688		0.5864	0.5864	0.5864
+transport	80921-trips	online_direct	bitmap_direct	1	1	10.0603	4.7509	5.3094		0.5864	0.5864	0.5864
+transport	80921-trips	roaring_direct	sql_opt	1	1	3.326	0.3915	2.9345		0.4052	0.4052	0.4052
+transport	80921-trips	roaring_direct	bitmap_direct	1	1	3.326	4.7509	-1.4249	1.0	0.4052	0.4052	0.4052
+transport	80921-trips	roaring_direct_memo	sql_opt_memo	1	1	3.0872	0.4602	2.627		0.4138	0.4138	0.4138
+transport	80921-trips	roaring_direct_memo	bitmap_direct_memo	1	1	3.0872	4.4926	-1.4054	1.0	0.4138	0.4138	0.4138
+transport	80921-trips	sql_opt	bitmap_direct	1	1	0.3915	4.7509	-4.3594	1.0	0.3915	0.3915	0.3915
+transport	80921-trips	sql_opt_memo	bitmap_direct_memo	1	1	0.4602	4.4926	-4.0324	1.0	0.4602	0.4602	0.4602
+transport	80921-trips	tree_direct	sql_opt	1	1	10.2639	0.3915	9.8724		0.6901	0.6901	0.6901
+transport	80921-trips	tree_direct	bitmap_direct	1	1	10.2639	4.7509	5.513		0.6901	0.6901	0.6901
+transport	80921-trips	tree_direct_memo	sql_opt_memo	1	1	9.9482	0.4602	9.488		0.4964	0.4964	0.4964
+transport	80921-trips	tree_direct_memo	bitmap_direct_memo	1	1	9.9482	4.4926	5.4556		0.4964	0.4964	0.4964
+transport	81870-trips	bitmap_direct	sql_opt	1	1	1.3849	0.2799	1.105		0.3657	0.3657	0.3657
+transport	81870-trips	bitmap_direct_memo	sql_opt_memo	1	1	1.3929	0.2721	1.1208		0.3736	0.3736	0.3736
+transport	81870-trips	online_direct	sql_opt	1	1	1.5141	0.2799	1.2342		0.4855	0.4855	0.4855
+transport	81870-trips	online_direct	bitmap_direct	1	1	1.5141	1.3849	0.1292		0.4855	0.4855	0.4855
+transport	81870-trips	roaring_direct	sql_opt	1	1	1.7066	0.2799	1.4267		0.3932	0.3932	0.3932
+transport	81870-trips	roaring_direct	bitmap_direct	1	1	1.7066	1.3849	0.3217		0.3932	0.3932	0.3932
+transport	81870-trips	roaring_direct_memo	sql_opt_memo	1	1	1.3899	0.2721	1.1178		0.3952	0.3952	0.3952
+transport	81870-trips	roaring_direct_memo	bitmap_direct_memo	1	1	1.3899	1.3929	-0.003	1.0	0.3952	0.3952	0.3952
+transport	81870-trips	sql_opt	bitmap_direct	1	1	0.2799	1.3849	-1.105	1.0	0.2799	0.2799	0.2799
+transport	81870-trips	sql_opt_memo	bitmap_direct_memo	1	1	0.2721	1.3929	-1.1208	1.0	0.2721	0.2721	0.2721
+transport	81870-trips	tree_direct	sql_opt	1	1	1.3288	0.2799	1.0489		0.3629	0.3629	0.3629
+transport	81870-trips	tree_direct	bitmap_direct	1	1	1.3288	1.3849	-0.0561	1.0	0.3629	0.3629	0.3629
+transport	81870-trips	tree_direct_memo	sql_opt_memo	1	1	1.4808	0.2721	1.2087		0.4083	0.4083	0.4083
+transport	81870-trips	tree_direct_memo	bitmap_direct_memo	1	1	1.4808	1.3929	0.0879		0.4083	0.4083	0.4083
+transport	82604-routes	bitmap_direct	sql_opt	1	1	1.6097	0.2765	1.3332		0.5468	0.5468	0.5468
+transport	82604-routes	bitmap_direct_memo	sql_opt_memo	1	1	1.3589	0.3304	1.0285		0.4449	0.4449	0.4449
+transport	82604-routes	online_direct	sql_opt	1	1	1.7791	0.2765	1.5026		0.673	0.673	0.673
+transport	82604-routes	online_direct	bitmap_direct	1	1	1.7791	1.6097	0.1694		0.673	0.673	0.673
+transport	82604-routes	roaring_direct	sql_opt	1	1	1.2776	0.2765	1.0011		0.3849	0.3849	0.3849
+transport	82604-routes	roaring_direct	bitmap_direct	1	1	1.2776	1.6097	-0.3321	1.0	0.3849	0.3849	0.3849
+transport	82604-routes	roaring_direct_memo	sql_opt_memo	1	1	1.3013	0.3304	0.9709		0.403	0.403	0.403
+transport	82604-routes	roaring_direct_memo	bitmap_direct_memo	1	1	1.3013	1.3589	-0.0576	1.0	0.403	0.403	0.403
+transport	82604-routes	sql_opt	bitmap_direct	1	1	0.2765	1.6097	-1.3332	1.0	0.2765	0.2765	0.2765
+transport	82604-routes	sql_opt_memo	bitmap_direct_memo	1	1	0.3304	1.3589	-1.0285	1.0	0.3304	0.3304	0.3304
+transport	82604-routes	tree_direct	sql_opt	1	1	1.7383	0.2765	1.4618		0.8319	0.8319	0.8319
+transport	82604-routes	tree_direct	bitmap_direct	1	1	1.7383	1.6097	0.1286		0.8319	0.8319	0.8319
+transport	82604-routes	tree_direct_memo	sql_opt_memo	1	1	1.3869	0.3304	1.0565		0.4131	0.4131	0.4131
+transport	82604-routes	tree_direct_memo	bitmap_direct_memo	1	1	1.3869	1.3589	0.028		0.4131	0.4131	0.4131
+transport	83634-routes	bitmap_direct	sql_opt	1	1	1.3964	0.4224	0.974		0.3642	0.3642	0.3642
+transport	83634-routes	bitmap_direct_memo	sql_opt_memo	1	1	1.787	0.5181	1.2689		0.5334	0.5334	0.5334
+transport	83634-routes	online_direct	sql_opt	1	1	1.5919	0.4224	1.1695		0.3976	0.3976	0.3976
+transport	83634-routes	online_direct	bitmap_direct	1	1	1.5919	1.3964	0.1955		0.3976	0.3976	0.3976
+transport	83634-routes	roaring_direct	sql_opt	1	1	1.5868	0.4224	1.1644		0.3647	0.3647	0.3647
+transport	83634-routes	roaring_direct	bitmap_direct	1	1	1.5868	1.3964	0.1904		0.3647	0.3647	0.3647
+transport	83634-routes	roaring_direct_memo	sql_opt_memo	1	1	2.3441	0.5181	1.826		0.4021	0.4021	0.4021
+transport	83634-routes	roaring_direct_memo	bitmap_direct_memo	1	1	2.3441	1.787	0.5571		0.4021	0.4021	0.4021
+transport	83634-routes	sql_opt	bitmap_direct	1	1	0.4224	1.3964	-0.974	1.0	0.4224	0.4224	0.4224
+transport	83634-routes	sql_opt_memo	bitmap_direct_memo	1	1	0.5181	1.787	-1.2689	1.0	0.5181	0.5181	0.5181
+transport	83634-routes	tree_direct	sql_opt	1	1	1.641	0.4224	1.2186		0.3702	0.3702	0.3702
+transport	83634-routes	tree_direct	bitmap_direct	1	1	1.641	1.3964	0.2446		0.3702	0.3702	0.3702
+transport	83634-routes	tree_direct_memo	sql_opt_memo	1	1	1.9659	0.5181	1.4478		0.4133	0.4133	0.4133
+transport	83634-routes	tree_direct_memo	bitmap_direct_memo	1	1	1.9659	1.787	0.1789		0.4133	0.4133	0.4133
+transport	84114-trips	bitmap_direct	sql_opt	1	1	1.4357	0.2616	1.1741		0.4205	0.4205	0.4205
+transport	84114-trips	bitmap_direct_memo	sql_opt_memo	1	1	1.504	0.2808	1.2232		0.4501	0.4501	0.4501
+transport	84114-trips	online_direct	sql_opt	1	1	1.3683	0.2616	1.1067		0.395	0.395	0.395
+transport	84114-trips	online_direct	bitmap_direct	1	1	1.3683	1.4357	-0.0674	1.0	0.395	0.395	0.395
+transport	84114-trips	roaring_direct	sql_opt	1	1	1.3546	0.2616	1.093		0.3896	0.3896	0.3896
+transport	84114-trips	roaring_direct	bitmap_direct	1	1	1.3546	1.4357	-0.0811	1.0	0.3896	0.3896	0.3896
+transport	84114-trips	roaring_direct_memo	sql_opt_memo	1	1	1.3722	0.2808	1.0914		0.4377	0.4377	0.4377
+transport	84114-trips	roaring_direct_memo	bitmap_direct_memo	1	1	1.3722	1.504	-0.1318	1.0	0.4377	0.4377	0.4377
+transport	84114-trips	sql_opt	bitmap_direct	1	1	0.2616	1.4357	-1.1741	1.0	0.2616	0.2616	0.2616
+transport	84114-trips	sql_opt_memo	bitmap_direct_memo	1	1	0.2808	1.504	-1.2232	1.0	0.2808	0.2808	0.2808
+transport	84114-trips	tree_direct	sql_opt	1	1	1.7762	0.2616	1.5146		0.5958	0.5958	0.5958
+transport	84114-trips	tree_direct	bitmap_direct	1	1	1.7762	1.4357	0.3405		0.5958	0.5958	0.5958
+transport	84114-trips	tree_direct_memo	sql_opt_memo	1	1	1.7557	0.2808	1.4749		0.4077	0.4077	0.4077
+transport	84114-trips	tree_direct_memo	bitmap_direct_memo	1	1	1.7557	1.504	0.2517		0.4077	0.4077	0.4077

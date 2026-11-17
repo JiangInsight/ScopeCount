@@ -1,0 +1,81 @@
+{
+  "stage": "build",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.12",
+  "versions": {
+    "duckdb": "1.5.5",
+    "pyarrow": "24.0.0",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3"
+  },
+  "performance_claim": null,
+  "commands": [
+    {
+      "command": [
+        ".\\research\\artifact\\engine\\build_engine.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 5.748536000028253,
+      "output": "scopecount.cpp\n.\\research\\artifact\\engine\\scopecount.cpp(260): warning C4141: \u201cdllexport\u201d: \u4f7f\u7528\u4e86\u591a\u6b21\n  \u6b63\u5728\u521b\u5efa\u5e93 scopecount.lib \u548c\u5bf9\u8c61 scopecount.exp\nCreating extension binary:\n - Input file: scopecount.dll\n - Output file: scopecount.duckdb_extension\n - Metadata:\n   - FIELD8 (unused)            = EMPTY\n   - FIELD7 (unused)            = EMPTY\n   - FIELD6 (unused)            = EMPTY\n   - FIELD5 (abi_type)          = C_STRUCT\n   - FIELD4 (extension_version) = v0.1.0\n   - FIELD3 (duckdb_version)    = v1.2.0\n   - FIELD2 (duckdb_platform)   = windows_amd64\n   - FIELD1 (header signature)  = 4 (special value to identify a duckdb extension)\n.\\compiled\\duckdb155_final\\scopecount.duckdb_extension\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\engine\\build_engine.py",
+        "--roaring"
+      ],
+      "returncode": 0,
+      "elapsed_s": 6.831132000021171,
+      "output": "roaring.c\nscopecount.cpp\n.\\research\\artifact\\engine\\scopecount.cpp(260): warning C4141: \u201cdllexport\u201d: \u4f7f\u7528\u4e86\u591a\u6b21\n  \u6b63\u5728\u521b\u5efa\u5e93 scopecount.lib \u548c\u5bf9\u8c61 scopecount.exp\nCreating extension binary:\n - Input file: scopecount.dll\n - Output file: scopecount.duckdb_extension\n - Metadata:\n   - FIELD8 (unused)            = EMPTY\n   - FIELD7 (unused)            = EMPTY\n   - FIELD6 (unused)            = EMPTY\n   - FIELD5 (abi_type)          = C_STRUCT\n   - FIELD4 (extension_version) = v0.1.0\n   - FIELD3 (duckdb_version)    = v1.2.0\n   - FIELD2 (duckdb_platform)   = windows_amd64\n   - FIELD1 (header signature)  = 4 (special value to identify a duckdb extension)\n.\\compiled\\duckdb155_roaring\\scopecount.duckdb_extension\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\fused\\build.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 6.5571169999893755,
+      "output": "fused.cpp\n.\\research\\artifact\\fused\\fused.cpp(352): warning C4141: \u201cdllexport\u201d: \u4f7f\u7528\u4e86\u591a\u6b21\n  \u6b63\u5728\u521b\u5efa\u5e93 scopefused.lib \u548c\u5bf9\u8c61 scopefused.exp\nCreating extension binary:\n - Input file: scopefused.dll\n - Output file: scopefused.duckdb_extension\n - Metadata:\n   - FIELD8 (unused)            = EMPTY\n   - FIELD7 (unused)            = EMPTY\n   - FIELD6 (unused)            = EMPTY\n   - FIELD5 (abi_type)          = C_STRUCT\n   - FIELD4 (extension_version) = v0.2.0\n   - FIELD3 (duckdb_version)    = v1.2.0\n   - FIELD2 (duckdb_platform)   = windows_amd64\n   - FIELD1 (header signature)  = 4 (special value to identify a duckdb extension)\n.\\compiled\\duckdb155_fused\\scopefused.duckdb_extension\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\pageaudit\\build.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 5.72120900003938,
+      "output": "roaring.c\nextension.cpp\n.\\research\\artifact\\pageaudit\\extension.cpp(62): warning C4141: \u201cdllexport\u201d: \u4f7f\u7528\u4e86\u591a\u6b21\n  \u6b63\u5728\u521b\u5efa\u5e93 scopepages.lib \u548c\u5bf9\u8c61 scopepages.exp\nCreating extension binary:\n - Input file: scopepages.dll\n - Output file: scopepages.duckdb_extension\n - Metadata:\n   - FIELD8 (unused)            = EMPTY\n   - FIELD7 (unused)            = EMPTY\n   - FIELD6 (unused)            = EMPTY\n   - FIELD5 (abi_type)          = C_STRUCT\n   - FIELD4 (extension_version) = v0.1.0\n   - FIELD3 (duckdb_version)    = v1.2.0\n   - FIELD2 (duckdb_platform)   = windows_amd64\n   - FIELD1 (header signature)  = 4 (special value to identify a duckdb extension)\n"
+    },
+    {
+      "command": [
+        "native-build"
+      ],
+      "returncode": 0,
+      "sources": [
+        "research\\artifact\\runner.cpp",
+        "research\\artifact\\bundles.cpp",
+        "research\\artifact\\controls.cpp",
+        "research\\artifact\\cut.cpp",
+        "research\\artifact\\gate.cpp",
+        "research\\artifact\\cut_execution.cpp",
+        "research\\artifact\\topology.cpp",
+        "research\\artifact\\published_run.cpp",
+        "research\\artifact\\revision\\prefix.cpp",
+        "research\\artifact\\pageaudit\\test_pivot.cpp",
+        "research\\artifact\\pageaudit\\test_segments.cpp",
+        "research\\artifact\\pageaudit\\profile_segments.cpp"
+      ],
+      "programs": [
+        "runner",
+        "bundles",
+        "controls",
+        "cut",
+        "gate",
+        "cut_execution",
+        "topology",
+        "published_run",
+        "prefix",
+        "test_pivot",
+        "test_segments",
+        "profile_segments"
+      ]
+    }
+  ]
+}

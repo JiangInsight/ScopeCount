@@ -1,0 +1,89 @@
+{
+  "ci-pair": {
+    "tables": 1226,
+    "paid_seconds": {
+      "bitmap_direct": 22.2400434,
+      "tree_direct": 22.2578321
+    },
+    "premium": 600,
+    "by_one": 30,
+    "by_ten": 81,
+    "by_forty": 181,
+    "censored": 308,
+    "repaid_pct": 48.66666666666667,
+    "ci95": [
+      44.68076527110501,
+      52.67302170757873
+    ],
+    "endpoint_win": 659,
+    "unanimous_win": 41,
+    "unanimous_loss": 26
+  },
+  "ci-memo": {
+    "tables": 1226,
+    "paid_seconds": {
+      "bitmap_direct_memo": 2.9460962,
+      "sql_opt_memo": 0.7646682,
+      "tree_direct_memo": 3.0298431
+    },
+    "premium": 555,
+    "by_one": 125,
+    "by_ten": 5,
+    "by_forty": 8,
+    "censored": 417,
+    "repaid_pct": 24.864864864864867,
+    "ci95": [
+      21.311475409836063,
+      28.47103226908807
+    ],
+    "endpoint_win": 691,
+    "unanimous_win": 43,
+    "unanimous_loss": 38
+  },
+  "ci-fresh": {
+    "tables": 128,
+    "paid_seconds": {
+      "bitmap_direct": 2.3001523,
+      "independent": 2.3890058,
+      "lazy": 2.3352607,
+      "leaf": 2.3583065,
+      "online_direct": 2.3393241,
+      "sql_opt": 0.7980755,
+      "synopsis": 1.7879336,
+      "tree_direct": 2.3185445,
+      "words": 2.3203631
+    }
+  },
+  "memo_latency_quantiles_us": {
+    "bitmap_direct_memo": {
+      "first_paid_us": [
+        2469.8999999999996,
+        3359.85
+      ],
+      "later_hit_us": [
+        1.4,
+        2.2
+      ]
+    },
+    "sql_opt_memo": {
+      "first_paid_us": [
+        627.25,
+        862.925
+      ],
+      "later_hit_us": [
+        1.4,
+        2.2
+      ]
+    },
+    "tree_direct_memo": {
+      "first_paid_us": [
+        2449.8500000000004,
+        3463.675
+      ],
+      "later_hit_us": [
+        1.45,
+        2.2
+      ]
+    }
+  }
+}

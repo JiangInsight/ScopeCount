@@ -1,0 +1,10 @@
+[
+  {
+    "file": "matched_engine-1.parquet",
+    "first": "agency_providers.tsv",
+    "last": "sql_table_fish546tjgr_cds_int_mcpg_2.tsv",
+    "tables": 8,
+    "records": 300,
+    "sha256": "579938d10b95359080b52726833abb0164e68a85eb2c42165df80abdd4df0fec"
+  }
+]

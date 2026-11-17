@@ -1,0 +1,2 @@
+original {'rows': 26.197, 'runs': 13.014, 'sql': 28.524, 'stream': 18.38}
+shuffled {'rows': 28.026, 'runs': 29.64, 'sql': 57.012, 'stream': 57.158}

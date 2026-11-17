@@ -1,0 +1,10 @@
+runs few_scores {'runs': 4.04, 'sql_counts': 17.11, 'sql_row_total': 19.29, 'weight': 2.92, 'wliteral': 3.2, 'wmargin': 3.11, 'wrows': 4.49}
+runs independent {'runs': 3.61, 'sql_counts': 31.23, 'sql_row_total': 18.04, 'weight': 3.12, 'wliteral': 3.64, 'wmargin': 3.67, 'wrows': 4.01}
+interleaved few_scores {'runs': 5.23, 'sql_counts': 18.35, 'sql_row_total': 17.63, 'weight': 4.93, 'wliteral': 4.49, 'wmargin': 4.8, 'wrows': 3.8}
+interleaved independent {'runs': 4.96, 'sql_counts': 31.41, 'sql_row_total': 17.63, 'weight': 4.84, 'wliteral': 5.09, 'wmargin': 5.1, 'wrows': 4.0}
+many few_scores {'runs': 6.91, 'sql_counts': 22.81, 'sql_row_total': 24.1, 'weight': 7.21, 'wliteral': 7.02, 'wmargin': 6.98, 'wrows': 5.47}
+many independent {'runs': 6.99, 'sql_counts': 37.76, 'sql_row_total': 23.69, 'weight': 8.23, 'wliteral': 7.98, 'wmargin': 7.54, 'wrows': 5.67}
+method       endpoint    packed  segment  segment_one        sql
+layout                                                          
+interleaved  22.67395  23.81400  22.9107     22.92025  255.77610
+two_epochs   21.73330  23.77885  21.3197     21.67175  250.92305

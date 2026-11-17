@@ -1,0 +1,1332 @@
+{
+  "source_cardinality_table": "https://arxiv.org/html/2505.18281v1",
+  "table_raw_row_counts": {
+    "ia_statewide": 2441335,
+    "ky_louisville": 146562,
+    "tn_nashville": 3092351,
+    "mn_saint_paul": 675156,
+    "sc_statewide": 8983810,
+    "ks_wichita": 1030376,
+    "ca_los_angeles": 5418402,
+    "ca_bakersfield": 189685,
+    "fl_tampa": 2818240,
+    "az_statewide": 3498159,
+    "co_aurora": 257606,
+    "ca_statewide": 31778515,
+    "il_chicago": 2108098,
+    "co_statewide": 3112853,
+    "md_statewide": 3669665,
+    "nj_statewide": 3845334,
+    "oh_statewide": 7225577,
+    "wa_statewide": 11333425,
+    "wi_statewide": 1058902
+  },
+  "ohio_plot": "https://raw.githubusercontent.com/saatvikkher/missing-traffic/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6/figures/F1_dcmr_time_OH.png",
+  "plot_sha256": "8cdb5ba430278bfde9ca5abbfa197a488a234aceb20ede86ec62349379baf8c8",
+  "ohio_max_error_px": 0.8279524828394642,
+  "ohio_dcmr": [
+    {
+      "hour": 0,
+      "rate": 0.19843533054854096,
+      "center_y_px": 1802.0,
+      "pixel_error": 0.3783890439881361
+    },
+    {
+      "hour": 1,
+      "rate": 0.19706761109240345,
+      "center_y_px": 1924.0,
+      "pixel_error": 0.6935400063666748
+    },
+    {
+      "hour": 2,
+      "rate": 0.1946586069076556,
+      "center_y_px": 2140.0,
+      "pixel_error": 0.13078424836567137
+    },
+    {
+      "hour": 3,
+      "rate": 0.2036608674510016,
+      "center_y_px": 1335.0,
+      "pixel_error": 0.05862385693399119
+    },
+    {
+      "hour": 4,
+      "rate": 0.2142827238444935,
+      "center_y_px": 385.0,
+      "pixel_error": 0.14600658694689628
+    },
+    {
+      "hour": 5,
+      "rate": 0.21257607993105676,
+      "center_y_px": 538.0,
+      "pixel_error": 0.22882823440158973
+    },
+    {
+      "hour": 6,
+      "rate": 0.21613845575446405,
+      "center_y_px": 219.0,
+      "pixel_error": 0.18790187828199123
+    },
+    {
+      "hour": 7,
+      "rate": 0.21312791710686071,
+      "center_y_px": 488.0,
+      "pixel_error": 0.42037313344917493
+    },
+    {
+      "hour": 8,
+      "rate": 0.2076808411426887,
+      "center_y_px": 975.0,
+      "pixel_error": 0.5523766093538143
+    },
+    {
+      "hour": 9,
+      "rate": 0.20626812561429905,
+      "center_y_px": 1102.0,
+      "pixel_error": 0.10847368675968028
+    },
+    {
+      "hour": 10,
+      "rate": 0.20563678418286782,
+      "center_y_px": 1158.0,
+      "pixel_error": 0.352390526135423
+    },
+    {
+      "hour": 11,
+      "rate": 0.20587696908758088,
+      "center_y_px": 1137.0,
+      "pixel_error": 0.12734550235472852
+    },
+    {
+      "hour": 12,
+      "rate": 0.20520671090751857,
+      "center_y_px": 1197.0,
+      "pixel_error": 0.18615645938189118
+    },
+    {
+      "hour": 13,
+      "rate": 0.20944688829379526,
+      "center_y_px": 817.0,
+      "pixel_error": 0.6147798858946771
+    },
+    {
+      "hour": 14,
+      "rate": 0.2073210634250287,
+      "center_y_px": 1008.0,
+      "pixel_error": 0.27270210031201714
+    },
+    {
+      "hour": 15,
+      "rate": 0.19768942051989818,
+      "center_y_px": 1869.0,
+      "pixel_error": 0.08512290551152546
+    },
+    {
+      "hour": 16,
+      "rate": 0.19512205567198845,
+      "center_y_px": 2098.0,
+      "pixel_error": 0.6845612540782895
+    },
+    {
+      "hour": 17,
+      "rate": 0.19616037177140966,
+      "center_y_px": 2005.0,
+      "pixel_error": 0.8279524828394642
+    },
+    {
+      "hour": 18,
+      "rate": 0.197496715900096,
+      "center_y_px": 1886.0,
+      "pixel_error": 0.31869705442295526
+    },
+    {
+      "hour": 19,
+      "rate": 0.1980802828013991,
+      "center_y_px": 1834.0,
+      "pixel_error": 0.13030907088250387
+    },
+    {
+      "hour": 20,
+      "rate": 0.19913597148318438,
+      "center_y_px": 1739.0,
+      "pixel_error": 0.720070258827036
+    },
+    {
+      "hour": 21,
+      "rate": 0.20460310786251754,
+      "center_y_px": 1251.0,
+      "pixel_error": 0.20593614493918722
+    },
+    {
+      "hour": 22,
+      "rate": 0.20398193983250593,
+      "center_y_px": 1306.0,
+      "pixel_error": 0.34512077899853466
+    },
+    {
+      "hour": 23,
+      "rate": 0.19952579554831293,
+      "center_y_px": 1705.0,
+      "pixel_error": 0.14189588561930577
+    }
+  ],
+  "six_hourly_panels": {
+    "plot": "https://raw.githubusercontent.com/saatvikkher/missing-traffic/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6/figures/F7_dcmr_time.png",
+    "sha256": "081f10d7c4bc0a9fd308ad89cd5ff6db924e1bfd5015ebe5630a748b2d94c23a",
+    "hourly_points": [
+      {
+        "dataset": "il_chicago",
+        "hour": 0,
+        "rate": 0.3261214856824933,
+        "x": 220.0,
+        "y": 605.0,
+        "pixel_error": 0.4530048368178541
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 1,
+        "rate": 0.3277924091018541,
+        "x": 241.5,
+        "y": 558.5,
+        "pixel_error": 0.07049121117597679
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 2,
+        "rate": 0.32750994707768377,
+        "x": 262.5,
+        "y": 566.5,
+        "pixel_error": 0.2745393440745829
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 3,
+        "rate": 0.32928684178262735,
+        "x": 283.5,
+        "y": 517.5,
+        "pixel_error": 0.31683320051706687
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 4,
+        "rate": 0.3345797238765566,
+        "x": 305.0,
+        "y": 371.0,
+        "pixel_error": 0.09962100703705801
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 5,
+        "rate": 0.34221317902396187,
+        "x": 326.0,
+        "y": 160.0,
+        "pixel_error": 0.4162589386523905
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 6,
+        "rate": 0.34257624010808724,
+        "x": 347.5,
+        "y": 150.0,
+        "pixel_error": 0.3957730167912814
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 7,
+        "rate": 0.3408810490915444,
+        "x": 368.5,
+        "y": 197.0,
+        "pixel_error": 0.18304507337415998
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 8,
+        "rate": 0.3373524174098379,
+        "x": 389.5,
+        "y": 294.5,
+        "pixel_error": 0.07327948847341759
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 9,
+        "rate": 0.3363528043222144,
+        "x": 411.0,
+        "y": 322.0,
+        "pixel_error": 0.16260070688076667
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 10,
+        "rate": 0.3348928162158184,
+        "x": 432.0,
+        "y": 362.5,
+        "pixel_error": 0.04172755658873939
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 11,
+        "rate": 0.3322760897231944,
+        "x": 453.5,
+        "y": 434.5,
+        "pixel_error": 0.1799236398328503
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 12,
+        "rate": 0.33308437986446787,
+        "x": 474.5,
+        "y": 412.5,
+        "pixel_error": 0.1288842593148729
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 13,
+        "rate": 0.3306242580877823,
+        "x": 495.5,
+        "y": 480.5,
+        "pixel_error": 0.22952322279343207
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 14,
+        "rate": 0.33262668653906496,
+        "x": 516.5,
+        "y": 425.0,
+        "pixel_error": 0.0034515218048909446
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 15,
+        "rate": 0.3309080637144409,
+        "x": 538.0,
+        "y": 472.5,
+        "pixel_error": 0.06255851857167727
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 16,
+        "rate": 0.3288245680413671,
+        "x": 559.5,
+        "y": 530.5,
+        "pixel_error": 0.5580779417341546
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 17,
+        "rate": 0.32755005509322355,
+        "x": 580.5,
+        "y": 565.5,
+        "pixel_error": 0.38152057297338615
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 18,
+        "rate": 0.325504891684137,
+        "x": 601.5,
+        "y": 622.0,
+        "pixel_error": 0.4350104821842251
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 19,
+        "rate": 0.32502825731295865,
+        "x": 623.0,
+        "y": 635.0,
+        "pixel_error": 0.27990183766269183
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 20,
+        "rate": 0.32565900613563264,
+        "x": 644.0,
+        "y": 617.5,
+        "pixel_error": 0.188569343463314
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 21,
+        "rate": 0.3259571864031036,
+        "x": 665.5,
+        "y": 609.5,
+        "pixel_error": 0.41834472566370096
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 22,
+        "rate": 0.3262505957582016,
+        "x": 686.5,
+        "y": 601.5,
+        "pixel_error": 0.5164429263677448
+      },
+      {
+        "dataset": "il_chicago",
+        "hour": 23,
+        "rate": 0.3269758054411654,
+        "x": 707.5,
+        "y": 581.5,
+        "pixel_error": 0.5322301761680137
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 0,
+        "rate": 0.2050244456998584,
+        "x": 901.5,
+        "y": 371.5,
+        "pixel_error": 0.09264397156584891
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 1,
+        "rate": 0.20274847525063475,
+        "x": 923.0,
+        "y": 493.5,
+        "pixel_error": 0.18845640395193186
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 2,
+        "rate": 0.20009490829806337,
+        "x": 944.0,
+        "y": 635.0,
+        "pixel_error": 0.22430421956596547
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 3,
+        "rate": 0.20028534006923004,
+        "x": 965.5,
+        "y": 625.0,
+        "pixel_error": 0.04001309757222771
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 4,
+        "rate": 0.20482667523472922,
+        "x": 986.5,
+        "y": 382.5,
+        "pixel_error": 0.33059155332557566
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 5,
+        "rate": 0.20812258725281652,
+        "x": 1007.5,
+        "y": 206.0,
+        "pixel_error": 0.09596628063445678
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 6,
+        "rate": 0.20916908524132,
+        "x": 1029.0,
+        "y": 150.0,
+        "pixel_error": 0.06267870580268209
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 7,
+        "rate": 0.2063573676106313,
+        "x": 1050.0,
+        "y": 300.5,
+        "pixel_error": 0.1920198165698821
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 8,
+        "rate": 0.20469539208216936,
+        "x": 1071.5,
+        "y": 389.5,
+        "pixel_error": 0.3095685544230946
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 9,
+        "rate": 0.20408471370533404,
+        "x": 1092.5,
+        "y": 421.5,
+        "pixel_error": 0.34951103872845124
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 10,
+        "rate": 0.20355380211959465,
+        "x": 1113.5,
+        "y": 450.5,
+        "pixel_error": 0.25733735592802987
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 11,
+        "rate": 0.203286756305475,
+        "x": 1134.5,
+        "y": 464.5,
+        "pixel_error": 0.02427278319191828
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 12,
+        "rate": 0.2032700663160302,
+        "x": 1156.0,
+        "y": 465.5,
+        "pixel_error": 0.08314658130075259
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 13,
+        "rate": 0.20248452191015182,
+        "x": 1177.5,
+        "y": 507.5,
+        "pixel_error": 0.07223175492435985
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 14,
+        "rate": 0.20267854625426454,
+        "x": 1198.5,
+        "y": 497.0,
+        "pixel_error": 0.05134632192675781
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 15,
+        "rate": 0.2028012314193511,
+        "x": 1219.5,
+        "y": 490.5,
+        "pixel_error": 0.009856306902293
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 16,
+        "rate": 0.20321462153267514,
+        "x": 1240.5,
+        "y": 468.5,
+        "pixel_error": 0.11795956747300806
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 17,
+        "rate": 0.20444241524940077,
+        "x": 1262.0,
+        "y": 402.5,
+        "pixel_error": 0.21963246203995368
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 18,
+        "rate": 0.20605574389896741,
+        "x": 1283.5,
+        "y": 316.5,
+        "pixel_error": 0.06118371678348922
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 19,
+        "rate": 0.2073686991265871,
+        "x": 1304.5,
+        "y": 246.5,
+        "pixel_error": 0.27802928988603526
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 20,
+        "rate": 0.20828099149353596,
+        "x": 1325.5,
+        "y": 197.5,
+        "pixel_error": 0.06742507431044942
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 21,
+        "rate": 0.20846094131063525,
+        "x": 1346.5,
+        "y": 188.0,
+        "pixel_error": 0.19114129278204928
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 22,
+        "rate": 0.20708102529539377,
+        "x": 1368.0,
+        "y": 261.5,
+        "pixel_error": 0.10676720233459491
+      },
+      {
+        "dataset": "md_statewide",
+        "hour": 23,
+        "rate": 0.2063232977989509,
+        "x": 1389.5,
+        "y": 302.5,
+        "pixel_error": 0.3699662879007519
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 0,
+        "rate": 0.35525446451095194,
+        "x": 1564.5,
+        "y": 399.5,
+        "pixel_error": 0.4041318799609144
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 1,
+        "rate": 0.3559317012522308,
+        "x": 1586.0,
+        "y": 392.0,
+        "pixel_error": 0.1674959301767558
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 2,
+        "rate": 0.3568046090942882,
+        "x": 1607.0,
+        "y": 382.5,
+        "pixel_error": 0.0294325362424388
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 3,
+        "rate": 0.3649086975962875,
+        "x": 1628.5,
+        "y": 295.5,
+        "pixel_error": 0.05421827981444949
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 4,
+        "rate": 0.37847313499365665,
+        "x": 1649.5,
+        "y": 150.0,
+        "pixel_error": 0.07562719303041376
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 5,
+        "rate": 0.36408792960808156,
+        "x": 1670.5,
+        "y": 304.5,
+        "pixel_error": 0.14304504667643414
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 6,
+        "rate": 0.3491500430847258,
+        "x": 1692.0,
+        "y": 464.5,
+        "pixel_error": 0.06578791631454806
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 7,
+        "rate": 0.33931512904741623,
+        "x": 1713.0,
+        "y": 570.5,
+        "pixel_error": 0.4547590335400855
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 8,
+        "rate": 0.3336965477590699,
+        "x": 1734.5,
+        "y": 630.5,
+        "pixel_error": 0.19547471602527366
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 9,
+        "rate": 0.33461365721231695,
+        "x": 1755.5,
+        "y": 620.5,
+        "pixel_error": 0.03147360210050465
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 10,
+        "rate": 0.3374539475333895,
+        "x": 1776.5,
+        "y": 590.5,
+        "pixel_error": 0.4935872956034473
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 11,
+        "rate": 0.34075757065537843,
+        "x": 1798.0,
+        "y": 554.5,
+        "pixel_error": 0.07505472106504385
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 12,
+        "rate": 0.3446624625021318,
+        "x": 1819.0,
+        "y": 513.0,
+        "pixel_error": 0.30491033536463874
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 13,
+        "rate": 0.344592075525764,
+        "x": 1840.5,
+        "y": 513.5,
+        "pixel_error": 0.05001001382015602
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 14,
+        "rate": 0.3420430689943624,
+        "x": 1861.5,
+        "y": 541.0,
+        "pixel_error": 0.2119149645377547
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 15,
+        "rate": 0.342615741142504,
+        "x": 1882.5,
+        "y": 535.0,
+        "pixel_error": 0.3538237533566644
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 16,
+        "rate": 0.3464400198481793,
+        "x": 1904.0,
+        "y": 493.5,
+        "pixel_error": 0.13078712827564232
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 17,
+        "rate": 0.34229761314540685,
+        "x": 1925.0,
+        "y": 538.5,
+        "pixel_error": 0.4419009844896209
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 18,
+        "rate": 0.3332754683892681,
+        "x": 1946.5,
+        "y": 635.0,
+        "pixel_error": 0.1793984749010633
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 19,
+        "rate": 0.3337393445614099,
+        "x": 1967.5,
+        "y": 630.0,
+        "pixel_error": 0.15447042112236886
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 20,
+        "rate": 0.34031767857824924,
+        "x": 1988.5,
+        "y": 559.5,
+        "pixel_error": 0.20710275172450565
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 21,
+        "rate": 0.34883035818017494,
+        "x": 2010.0,
+        "y": 468.5,
+        "pixel_error": 0.5055914823774401
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 22,
+        "rate": 0.35093290286852163,
+        "x": 2031.0,
+        "y": 445.5,
+        "pixel_error": 0.0553832648961361
+      },
+      {
+        "dataset": "nj_statewide",
+        "hour": 23,
+        "rate": 0.34731518017499935,
+        "x": 2052.5,
+        "y": 484.5,
+        "pixel_error": 0.2553073768694958
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 0,
+        "rate": 0.19843533054854096,
+        "x": 220.0,
+        "y": 1261.5,
+        "pixel_error": 0.5323505641126758
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 1,
+        "rate": 0.19706761109240345,
+        "x": 241.5,
+        "y": 1292.0,
+        "pixel_error": 0.2039540227733596
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 2,
+        "rate": 0.1946586069076556,
+        "x": 262.5,
+        "y": 1346.5,
+        "pixel_error": 0.4049996985568214
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 3,
+        "rate": 0.2036608674510016,
+        "x": 283.5,
+        "y": 1143.5,
+        "pixel_error": 0.3159523455760791
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 4,
+        "rate": 0.2142827238444935,
+        "x": 305.0,
+        "y": 903.5,
+        "pixel_error": 0.26740454511582357
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 5,
+        "rate": 0.21257607993105676,
+        "x": 326.0,
+        "y": 942.0,
+        "pixel_error": 0.23515835398029594
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 6,
+        "rate": 0.21613845575446405,
+        "x": 347.5,
+        "y": 861.5,
+        "pixel_error": 0.43920729437923
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 7,
+        "rate": 0.21312791710686071,
+        "x": 368.5,
+        "y": 929.5,
+        "pixel_error": 0.29674841135874885
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 8,
+        "rate": 0.2076808411426887,
+        "x": 389.5,
+        "y": 1052.5,
+        "pixel_error": 0.07384064379675692
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 9,
+        "rate": 0.20626812561429905,
+        "x": 410.5,
+        "y": 1084.5,
+        "pixel_error": 0.08355134630073735
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 10,
+        "rate": 0.20563678418286782,
+        "x": 432.0,
+        "y": 1098.5,
+        "pixel_error": 0.14688451815891312
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 11,
+        "rate": 0.20587696908758088,
+        "x": 453.5,
+        "y": 1093.5,
+        "pixel_error": 0.2668832340732479
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 12,
+        "rate": 0.20520671090751857,
+        "x": 474.5,
+        "y": 1108.5,
+        "pixel_error": 0.15926385546845268
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 13,
+        "rate": 0.20944688829379526,
+        "x": 495.5,
+        "y": 1012.5,
+        "pixel_error": 0.26713785785432265
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 14,
+        "rate": 0.2073210634250287,
+        "x": 516.5,
+        "y": 1060.5,
+        "pixel_error": 0.18323039985261858
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 15,
+        "rate": 0.19768942051989818,
+        "x": 538.0,
+        "y": 1278.0,
+        "pixel_error": 0.2195385185041232
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 16,
+        "rate": 0.19512205567198845,
+        "x": 559.5,
+        "y": 1336.0,
+        "pixel_error": 0.35113484661906114
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 17,
+        "rate": 0.19616037177140966,
+        "x": 580.5,
+        "y": 1312.5,
+        "pixel_error": 0.25477972757289535
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 18,
+        "rate": 0.197496715900096,
+        "x": 601.5,
+        "y": 1282.5,
+        "pixel_error": 0.3759763881625986
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 19,
+        "rate": 0.1980802828013991,
+        "x": 622.5,
+        "y": 1269.5,
+        "pixel_error": 0.529574343535387
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 20,
+        "rate": 0.19913597148318438,
+        "x": 644.0,
+        "y": 1245.5,
+        "pixel_error": 0.3247972309754914
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 21,
+        "rate": 0.20460310786251754,
+        "x": 665.5,
+        "y": 1122.0,
+        "pixel_error": 0.05405122114552796
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 22,
+        "rate": 0.20398193983250593,
+        "x": 686.5,
+        "y": 1136.0,
+        "pixel_error": 0.052923824683603016
+      },
+      {
+        "dataset": "oh_statewide",
+        "hour": 23,
+        "rate": 0.19952579554831293,
+        "x": 707.5,
+        "y": 1236.5,
+        "pixel_error": 0.11143165897283325
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 0,
+        "rate": 0.23864540620399294,
+        "x": 901.5,
+        "y": 1033.5,
+        "pixel_error": 0.1264847834313514
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 1,
+        "rate": 0.2415108892170771,
+        "x": 923.0,
+        "y": 988.5,
+        "pixel_error": 0.22436596840270795
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 2,
+        "rate": 0.24302475597416465,
+        "x": 944.0,
+        "y": 965.0,
+        "pixel_error": 0.002073884840683604
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 3,
+        "rate": 0.241531033722219,
+        "x": 965.5,
+        "y": 988.5,
+        "pixel_error": 0.09129842717129577
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 4,
+        "rate": 0.24964579075443027,
+        "x": 986.5,
+        "y": 861.5,
+        "pixel_error": 0.2495411219210837
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 5,
+        "rate": 0.24474869066895485,
+        "x": 1007.5,
+        "y": 938.0,
+        "pixel_error": 0.011982782521499757
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 6,
+        "rate": 0.22251333290987024,
+        "x": 1029.0,
+        "y": 1286.5,
+        "pixel_error": 0.08392669766635663
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 7,
+        "rate": 0.21866909019180256,
+        "x": 1050.0,
+        "y": 1346.5,
+        "pixel_error": 0.15535669445398526
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 8,
+        "rate": 0.21996671426472392,
+        "x": 1071.5,
+        "y": 1326.0,
+        "pixel_error": 0.3215874717761835
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 9,
+        "rate": 0.22048108459868188,
+        "x": 1092.5,
+        "y": 1318.0,
+        "pixel_error": 0.2614043386552112
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 10,
+        "rate": 0.220318718559593,
+        "x": 1113.5,
+        "y": 1320.5,
+        "pixel_error": 0.30568017117775526
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 11,
+        "rate": 0.22240515915022613,
+        "x": 1135.0,
+        "y": 1288.0,
+        "pixel_error": 0.11115611595687369
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 12,
+        "rate": 0.2268558139011312,
+        "x": 1156.0,
+        "y": 1218.5,
+        "pixel_error": 0.13060383072524928
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 13,
+        "rate": 0.22775765598873626,
+        "x": 1177.5,
+        "y": 1204.5,
+        "pixel_error": 0.26246934349683215
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 14,
+        "rate": 0.23278192589016328,
+        "x": 1198.5,
+        "y": 1125.5,
+        "pixel_error": 0.0072213011421808915
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 15,
+        "rate": 0.24130060652289434,
+        "x": 1219.5,
+        "y": 992.0,
+        "pixel_error": 0.01949578624635251
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 16,
+        "rate": 0.2432424257072072,
+        "x": 1240.5,
+        "y": 961.5,
+        "pixel_error": 0.09118916806437483
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 17,
+        "rate": 0.23940499734806373,
+        "x": 1262.0,
+        "y": 1021.5,
+        "pixel_error": 0.22369155584237888
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 18,
+        "rate": 0.23716577734420752,
+        "x": 1283.5,
+        "y": 1057.0,
+        "pixel_error": 0.187730983730944
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 19,
+        "rate": 0.23599354402889072,
+        "x": 1304.5,
+        "y": 1075.5,
+        "pixel_error": 0.3188349327169817
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 20,
+        "rate": 0.23539311447013594,
+        "x": 1325.5,
+        "y": 1084.5,
+        "pixel_error": 0.08989625297044768
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 21,
+        "rate": 0.23599381795708935,
+        "x": 1346.5,
+        "y": 1075.5,
+        "pixel_error": 0.3231273875894658
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 22,
+        "rate": 0.2349529123518688,
+        "x": 1368.0,
+        "y": 1091.5,
+        "pixel_error": 0.012136553783420823
+      },
+      {
+        "dataset": "wa_statewide",
+        "hour": 23,
+        "rate": 0.23619548164689744,
+        "x": 1389.5,
+        "y": 1072.0,
+        "pixel_error": 0.01680259311797272
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 0,
+        "rate": 0.21496550504157086,
+        "x": 1564.5,
+        "y": 1176.5,
+        "pixel_error": 0.18650274190986238
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 1,
+        "rate": 0.21273196778711487,
+        "x": 1586.0,
+        "y": 1248.5,
+        "pixel_error": 0.08792016807001346
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 2,
+        "rate": 0.209696522934716,
+        "x": 1607.5,
+        "y": 1346.5,
+        "pixel_error": 0.1037603326349199
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 3,
+        "rate": 0.21054612885685206,
+        "x": 1628.5,
+        "y": 1319.0,
+        "pixel_error": 0.029039499187092588
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 4,
+        "rate": 0.21314755909980138,
+        "x": 1649.5,
+        "y": 1235.0,
+        "pixel_error": 0.0032077415908133844
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 5,
+        "rate": 0.21486620964175146,
+        "x": 1670.5,
+        "y": 1179.5,
+        "pixel_error": 0.018752764260170807
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 6,
+        "rate": 0.22187922788162884,
+        "x": 1692.0,
+        "y": 953.0,
+        "pixel_error": 0.1385239810188068
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 7,
+        "rate": 0.22471204610718595,
+        "x": 1713.0,
+        "y": 861.5,
+        "pixel_error": 0.19515166003475315
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 8,
+        "rate": 0.2233933753186825,
+        "x": 1734.5,
+        "y": 904.0,
+        "pixel_error": 0.2618447129261767
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 9,
+        "rate": 0.2228966096416001,
+        "x": 1755.5,
+        "y": 920.0,
+        "pixel_error": 0.2974407691463057
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 10,
+        "rate": 0.22264259132711114,
+        "x": 1776.5,
+        "y": 928.5,
+        "pixel_error": 0.0028480391501943814
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 11,
+        "rate": 0.2217470983506414,
+        "x": 1798.0,
+        "y": 957.5,
+        "pixel_error": 0.09633475870668917
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 12,
+        "rate": 0.22267081438064829,
+        "x": 1819.0,
+        "y": 927.5,
+        "pixel_error": 0.08611179267063562
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 13,
+        "rate": 0.22226380240439458,
+        "x": 1840.5,
+        "y": 940.5,
+        "pixel_error": 0.2244583861402134
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 14,
+        "rate": 0.22230485543715234,
+        "x": 1861.5,
+        "y": 939.5,
+        "pixel_error": 0.10073351127994101
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 15,
+        "rate": 0.22056258692566613,
+        "x": 1882.5,
+        "y": 995.5,
+        "pixel_error": 0.1396940394952253
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 16,
+        "rate": 0.22013208347979296,
+        "x": 1904.0,
+        "y": 1009.5,
+        "pixel_error": 0.036345272280414065
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 17,
+        "rate": 0.21814953037639256,
+        "x": 1925.0,
+        "y": 1073.5,
+        "pixel_error": 0.0331594500457868
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 18,
+        "rate": 0.21720038087892382,
+        "x": 1946.5,
+        "y": 1104.0,
+        "pixel_error": 0.17170522833657742
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 19,
+        "rate": 0.21762615918360037,
+        "x": 1967.5,
+        "y": 1090.5,
+        "pixel_error": 0.0724184466225779
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 20,
+        "rate": 0.21708466678271582,
+        "x": 1988.5,
+        "y": 1108.0,
+        "pixel_error": 0.09304374606927013
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 21,
+        "rate": 0.2164837166726638,
+        "x": 2010.0,
+        "y": 1127.5,
+        "pixel_error": 0.1943741935901926
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 22,
+        "rate": 0.21627949027855764,
+        "x": 2031.0,
+        "y": 1133.5,
+        "pixel_error": 0.39805380815687386
+      },
+      {
+        "dataset": "wi_statewide",
+        "hour": 23,
+        "rate": 0.21520671027986646,
+        "x": 2052.5,
+        "y": 1168.5,
+        "pixel_error": 0.027392165908167954
+      }
+    ],
+    "max_error_px": 0.5580779417341546
+  }
+}

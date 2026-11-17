@@ -1,4 +1,5 @@
 import csv
+import os
 from pathlib import Path
 import subprocess
 import tempfile
@@ -16,7 +17,7 @@ query = "SELECT unnest(scope_page_counts(content, 0, '2/0,4/0', ?, ?, ?)) FROM r
 with tempfile.TemporaryDirectory() as tmp, duckdb.connect(config={"allow_unsigned_extensions":"true","threads":"1"}) as db:
     file = Path(tmp)/"audit.parquet"
     pq.write_table(pa.table(columns),file,row_group_size=9)
-    extension = (root/"build/scopepages.duckdb_extension").as_posix().replace("'","''")
+    extension = (root/"compiled/scopepages/scopepages.duckdb_extension").as_posix().replace("'","''")
     db.execute(f"LOAD '{extension}'")
     for start,end in [(0,len(rows)),(2,12),(8,10),(4,4)]:
         sql = """SELECT "group", count(*), count(*) - count(field_a) + count(*) - count(field_b)
@@ -28,6 +29,6 @@ with tempfile.TemporaryDirectory() as tmp, duckdb.connect(config={"allow_unsigne
             actual = sorted(tuple(v[:3]) for v, in result)
             if actual != expected:
                 raise ValueError((start,end,mode,actual,expected))
-for program in ("test_pivot.exe","test_segments.exe"):
-    subprocess.run([root/"build"/program],check=True)
+for program in ("test_pivot","test_segments"):
+    subprocess.run([root/"compiled/native"/(program+('.exe' if os.name=='nt' else ''))],check=True)
 print("All six physical plans agree with grouped SQL on four intervals.")

@@ -1,0 +1,17 @@
+{
+  "audits": 25,
+  "jurisdictions": 19,
+  "oracle_tuples": 9020,
+  "oracle_hashes_verified": 25,
+  "rounds": 10,
+  "sum_of_query_medians_s": {
+    "dense": 4.9186046,
+    "endpoint": 3.3240619,
+    "packed": 4.58608055,
+    "roaring": 7.29482535,
+    "sql": 8.23477455
+  },
+  "fastest_reference_s": 4.094148,
+  "prefix_wins_vs_sql": 24,
+  "prefix_wins_vs_dense": 25
+}

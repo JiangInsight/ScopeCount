@@ -1,0 +1,10 @@
+[
+  {
+    "file": "roaring-bts-1.parquet",
+    "first": "BTS.tsv",
+    "last": "BTS.tsv",
+    "tables": 1,
+    "records": 540,
+    "sha256": "9b36fcfaeffa0336fc4ef3fdd04b6233ac36567876922a49164a658dc8380f30"
+  }
+]

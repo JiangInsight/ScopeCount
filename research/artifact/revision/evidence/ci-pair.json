@@ -1,0 +1,82 @@
+[
+  {
+    "file": "ci-pair-1.parquet",
+    "first": "mdb-1000-routes.tsv",
+    "last": "mdb-1183-routes.tsv",
+    "tables": 128,
+    "records": 51200,
+    "sha256": "2b330f39b77147281da1086ef9b3547670188c9837057faead99621b5c9481c5"
+  },
+  {
+    "file": "ci-pair-2.parquet",
+    "first": "mdb-1183-trips.tsv",
+    "last": "mdb-1902-routes.tsv",
+    "tables": 128,
+    "records": 51200,
+    "sha256": "af90592d5971df852fac32ffceda62c5485eccdec25353ec0191347c98392bf0"
+  },
+  {
+    "file": "ci-pair-3.parquet",
+    "first": "mdb-1903-routes.tsv",
+    "last": "mdb-2143-trips.tsv",
+    "tables": 128,
+    "records": 51200,
+    "sha256": "55e44efe5dc8b71745995e85ead0c440573ae0caa1d67f49a284e0898073b1de"
+  },
+  {
+    "file": "ci-pair-4.parquet",
+    "first": "mdb-2148-routes.tsv",
+    "last": "mdb-2450-trips.tsv",
+    "tables": 128,
+    "records": 51200,
+    "sha256": "d3834f613c28ddcb88c14028f922dcbfd423b36001d85647106a4450e4aa13d7"
+  },
+  {
+    "file": "ci-pair-5.parquet",
+    "first": "mdb-2455-routes.tsv",
+    "last": "mdb-2800-routes.tsv",
+    "tables": 128,
+    "records": 51200,
+    "sha256": "97c30f6f349bb71081887aca375a91dd74e8e8318521c534f66d54e013e37767"
+  },
+  {
+    "file": "ci-pair-6.parquet",
+    "first": "mdb-2800-trips.tsv",
+    "last": "mdb-304-trips.tsv",
+    "tables": 128,
+    "records": 51200,
+    "sha256": "3377a56c8269de902fa2f06c9019110171a76cc17611388d4b4f3ed5a6f4c774"
+  },
+  {
+    "file": "ci-pair-7.parquet",
+    "first": "mdb-305-routes.tsv",
+    "last": "mdb-586-routes.tsv",
+    "tables": 128,
+    "records": 51200,
+    "sha256": "f9435632e4ae0be81509bab8b4592562c3af9a9437ca50ce1ef3653c112eea09"
+  },
+  {
+    "file": "ci-pair-8.parquet",
+    "first": "mdb-586-trips.tsv",
+    "last": "mdb-750-routes.tsv",
+    "tables": 128,
+    "records": 51200,
+    "sha256": "dfabd79ba35e3e26651d07090bd05ceed9b3b4b547ce28030829383e8b8255cd"
+  },
+  {
+    "file": "ci-pair-9.parquet",
+    "first": "mdb-750-trips.tsv",
+    "last": "mdb-887-routes.tsv",
+    "tables": 128,
+    "records": 51200,
+    "sha256": "fdf800a80b1f043facabb24e6dabc2092a86b4aea63183d2b93cd8a92084d84d"
+  },
+  {
+    "file": "ci-pair-10.parquet",
+    "first": "mdb-887-trips.tsv",
+    "last": "mdb-991-trips.tsv",
+    "tables": 74,
+    "records": 29600,
+    "sha256": "c6bc3a7571f25516377d1b7399c33d0b88c1e50e81047dc079d6834ac50533d8"
+  }
+]

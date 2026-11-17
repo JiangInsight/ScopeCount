@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-18",
+  "status": "passed",
+  "environment": "New directory containing release files only; dependency overrides unset; installed packages match all requirements",
+  "builds": {
+    "operator_families": 3,
+    "extension_binaries": 4,
+    "native_programs": 12
+  },
+  "source_fetch": {
+    "dataset": "ca_bakersfield",
+    "rows": 189685,
+    "groups": 523,
+    "raw_and_independent_R_oracle_hashes": "matched"
+  },
+  "operational_counts": {
+    "tables": 2290,
+    "rows": 10315079,
+    "scope_calls": 50104,
+    "values": 172408
+  },
+  "executed": {
+    "sqlshare": {
+      "tables": 13,
+      "rows": 926833,
+      "requests": 27,
+      "resident_dispatches": 675,
+      "file_dispatches": 675
+    },
+    "fcc": {
+      "rows": 10087929,
+      "resident_layouts": 2,
+      "resident_methods": 4,
+      "resident_repeats": 4,
+      "file_methods": 5,
+      "file_repeats": 5
+    },
+    "stops": {
+      "sources": 1,
+      "resident_methods": 10,
+      "resident_repeats": 10,
+      "degree_methods": 3,
+      "degree_repeats": 5
+    },
+    "retained_transport": {
+      "tables": 8,
+      "rows": 406995,
+      "dispatches": 72
+    },
+    "retained_ci": {
+      "tables": 8,
+      "rows": 1442889,
+      "dispatches": 2880
+    },
+    "resident_controls": {
+      "layouts": 6,
+      "rows_per_layout": 524288,
+      "methods": 7,
+      "repeats": 7
+    },
+    "segment_controls": {
+      "layouts": 2,
+      "rows_per_layout": 1048576,
+      "methods": 5,
+      "repeats": 10
+    }
+  },
+  "frozen_checks": {
+    "timed_observations": 1936080,
+    "traffic_oracle_tuples": 9020,
+    "traffic_oracle_hashes": 25,
+    "traffic_queries": 25,
+    "ci_payback_tables": 1226
+  },
+  "performance_claim": false,
+  "not_rerun": [
+    "All 19 source downloads and traffic timing campaigns",
+    "Full five-repeat operational timing campaigns",
+    "Full BTS public-input acquisition and timing",
+    "All typed-source timing campaigns",
+    "Linux toolchain"
+  ],
+  "code_comment_findings": [],
+  "release_source_files": 301
+}

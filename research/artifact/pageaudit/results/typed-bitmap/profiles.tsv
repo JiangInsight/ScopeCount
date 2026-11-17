@@ -1,0 +1,13 @@
+dataset	method	row_groups	decoded	certified	skipped_words
+ca_bakersfield-week	dense	2	13	7	0
+ca_bakersfield-week	roaring	2	13	7	0
+ca_bakersfield-week	boundary	2	13	7	0
+ca_bakersfield-week	residual	2	13	7	0
+co_aurora-week	dense	3	16	14	0
+co_aurora-week	roaring	3	16	14	0
+co_aurora-week	boundary	3	16	14	0
+co_aurora-week	residual	3	16	14	38
+mn_saint_paul-week	dense	6	39	15	0
+mn_saint_paul-week	roaring	6	39	15	0
+mn_saint_paul-week	boundary	6	39	15	0
+mn_saint_paul-week	residual	6	39	15	107

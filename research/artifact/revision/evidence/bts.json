@@ -1,0 +1,10 @@
+[
+  {
+    "file": "bts-1.parquet",
+    "first": "months.tsv",
+    "last": "months.tsv",
+    "tables": 1,
+    "records": 720,
+    "sha256": "4e696fd1bc4e7115499b9de4cb0c81b6972e7c70722023574c209f84d15437ab"
+  }
+]

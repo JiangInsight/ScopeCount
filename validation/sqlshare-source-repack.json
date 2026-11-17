@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "original_archive_sha256": "32b6ee56f3f0c0a60706849557c9b4427c57af8f8ee5b55a7fe48c03ae0f2c0a",
+  "packaged_archive_sha256": "2940371930a45d37aa33ab102afa4ce6d494baa66a83a88d094f3beb8b3403e6",
+  "original_members": 24,
+  "unchanged_non_source_members": 18,
+  "source_files": [
+    {
+      "path": "file/measured-source/extension.cpp",
+      "original_sha256": "ef7d4c03390f61dc3d02ac56645c1667a1516984584a76b0e342a6c1af8b86b7",
+      "packaged_sha256": "66a5a6144c1eb528245ee9eeabbfd27e50379905e2614430bc2f442694c055f9",
+      "comments_removed": 2,
+      "preprocessing_tokens": 756,
+      "tokens_sha256": "1b812fc24f243d56311e8d0527b7292ba268dc2b80eee59679d1cb51f302c090",
+      "token_sequences_identical": true
+    },
+    {
+      "path": "file/measured-source/pivot.hpp",
+      "original_sha256": "91e79340003820cc0a2b9ac29a65b5fe211a0df9471e187b138cdf7d3b06b52c",
+      "packaged_sha256": "a57769d725615d386eff8a72cb9d1ceb3318dc982125272e77b57d4e27166275",
+      "comments_removed": 3,
+      "preprocessing_tokens": 316,
+      "tokens_sha256": "f1cc1df9c4c139316769143467eba85e1bd625072085ce785d719a46d9714948",
+      "token_sequences_identical": true
+    },
+    {
+      "path": "file/measured-source/plan.hpp",
+      "original_sha256": "8278e5f17593f8456e9ee580598a98bac1c803672ed47bedbab4182aa3cec8e7",
+      "packaged_sha256": "64f6dcfe35ef341623e495ba188cc1960ea507077e87ec32996935696e92aeb4",
+      "comments_removed": 1,
+      "preprocessing_tokens": 3118,
+      "tokens_sha256": "62e54f8ed6aada058084a484b40e546c278c9566e6f165ce9ab9d01185ac1a0b",
+      "token_sequences_identical": true
+    },
+    {
+      "path": "file/measured-source/scores.hpp",
+      "original_sha256": "d08f6b9188e229ed1811e06e1297d923fbb59c4447ab6f4a35427ccee59a1206",
+      "packaged_sha256": "d08f6b9188e229ed1811e06e1297d923fbb59c4447ab6f4a35427ccee59a1206",
+      "comments_removed": 0,
+      "preprocessing_tokens": 1564,
+      "tokens_sha256": "37ae7effc9635c784e8ddadad21beaa556a6e570346d0011ac36f3520c1f58fa",
+      "token_sequences_identical": true
+    },
+    {
+      "path": "file/measured-source/signed.hpp",
+      "original_sha256": "da919218d5d63f1f7e74840ac61988cdb65d2a564e8990764068cf4540813d17",
+      "packaged_sha256": "fae706aebae944d2da02c723cc6df145496f7b938c08989282789817dead0424",
+      "comments_removed": 2,
+      "preprocessing_tokens": 1797,
+      "tokens_sha256": "7c1d6a0212cd07c8b2003219b4ce18ce4aee804327379f9a1ee9f93327d81efa",
+      "token_sequences_identical": true
+    },
+    {
+      "path": "file/measured-source/streams.hpp",
+      "original_sha256": "ca6ea71098d58b6727e11a1b197a48b5cc6c58cc2d23630f671beb5bf2376d9b",
+      "packaged_sha256": "67932bece91dc46789128ae924aa09da1bdf790a26e942e6b6dd933c3ee92ed4",
+      "comments_removed": 3,
+      "preprocessing_tokens": 1775,
+      "tokens_sha256": "d4e7e986e694b23b2cbbd67ee0373d5a7b004b36caa105cfebed8929cf283398",
+      "token_sequences_identical": true
+    }
+  ],
+  "archive_hashes_checked": 25,
+  "restored_members": 26,
+  "timing_data_changed": false
+}

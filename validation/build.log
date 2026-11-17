@@ -1,0 +1,77 @@
+scopecount.cpp
+.\research\artifact\engine\scopecount.cpp(260): warning C4141: “dllexport”: 使用了多次
+  正在创建库 scopecount.lib 和对象 scopecount.exp
+Creating extension binary:
+ - Input file: scopecount.dll
+ - Output file: scopecount.duckdb_extension
+ - Metadata:
+   - FIELD8 (unused)            = EMPTY
+   - FIELD7 (unused)            = EMPTY
+   - FIELD6 (unused)            = EMPTY
+   - FIELD5 (abi_type)          = C_STRUCT
+   - FIELD4 (extension_version) = v0.1.0
+   - FIELD3 (duckdb_version)    = v1.2.0
+   - FIELD2 (duckdb_platform)   = windows_amd64
+   - FIELD1 (header signature)  = 4 (special value to identify a duckdb extension)
+.\compiled\duckdb155_final\scopecount.duckdb_extension
+roaring.c
+scopecount.cpp
+.\research\artifact\engine\scopecount.cpp(260): warning C4141: “dllexport”: 使用了多次
+  正在创建库 scopecount.lib 和对象 scopecount.exp
+Creating extension binary:
+ - Input file: scopecount.dll
+ - Output file: scopecount.duckdb_extension
+ - Metadata:
+   - FIELD8 (unused)            = EMPTY
+   - FIELD7 (unused)            = EMPTY
+   - FIELD6 (unused)            = EMPTY
+   - FIELD5 (abi_type)          = C_STRUCT
+   - FIELD4 (extension_version) = v0.1.0
+   - FIELD3 (duckdb_version)    = v1.2.0
+   - FIELD2 (duckdb_platform)   = windows_amd64
+   - FIELD1 (header signature)  = 4 (special value to identify a duckdb extension)
+.\compiled\duckdb155_roaring\scopecount.duckdb_extension
+fused.cpp
+.\research\artifact\fused\fused.cpp(352): warning C4141: “dllexport”: 使用了多次
+  正在创建库 scopefused.lib 和对象 scopefused.exp
+Creating extension binary:
+ - Input file: scopefused.dll
+ - Output file: scopefused.duckdb_extension
+ - Metadata:
+   - FIELD8 (unused)            = EMPTY
+   - FIELD7 (unused)            = EMPTY
+   - FIELD6 (unused)            = EMPTY
+   - FIELD5 (abi_type)          = C_STRUCT
+   - FIELD4 (extension_version) = v0.2.0
+   - FIELD3 (duckdb_version)    = v1.2.0
+   - FIELD2 (duckdb_platform)   = windows_amd64
+   - FIELD1 (header signature)  = 4 (special value to identify a duckdb extension)
+.\compiled\duckdb155_fused\scopefused.duckdb_extension
+roaring.c
+extension.cpp
+.\research\artifact\pageaudit\extension.cpp(62): warning C4141: “dllexport”: 使用了多次
+  正在创建库 scopepages.lib 和对象 scopepages.exp
+Creating extension binary:
+ - Input file: scopepages.dll
+ - Output file: scopepages.duckdb_extension
+ - Metadata:
+   - FIELD8 (unused)            = EMPTY
+   - FIELD7 (unused)            = EMPTY
+   - FIELD6 (unused)            = EMPTY
+   - FIELD5 (abi_type)          = C_STRUCT
+   - FIELD4 (extension_version) = v0.1.0
+   - FIELD3 (duckdb_version)    = v1.2.0
+   - FIELD2 (duckdb_platform)   = windows_amd64
+   - FIELD1 (header signature)  = 4 (special value to identify a duckdb extension)
+runner.cpp
+bundles.cpp
+controls.cpp
+cut.cpp
+gate.cpp
+cut_execution.cpp
+topology.cpp
+published_run.cpp
+prefix.cpp
+test_pivot.cpp
+test_segments.cpp
+profile_segments.cpp

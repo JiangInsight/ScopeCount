@@ -1,0 +1,49 @@
+{
+  "stage": "summarize",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.12",
+  "versions": {
+    "duckdb": "1.5.5",
+    "pyarrow": "24.0.0",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3"
+  },
+  "performance_claim": null,
+  "commands": [
+    {
+      "command": [
+        ".\\experiments\\summarize.py",
+        "--root",
+        "outputs\\published",
+        "--out",
+        "outputs\\published\\summary",
+        "--frozen"
+      ],
+      "returncode": 0,
+      "elapsed_s": 2.7696682999958284,
+      "output": "{\n  \"audits\": 25,\n  \"jurisdictions\": 19,\n  \"oracle_tuples\": 9020,\n  \"oracle_hashes_verified\": 25,\n  \"rounds\": 10,\n  \"sum_of_query_medians_s\": {\n    \"dense\": 4.9186046,\n    \"endpoint\": 3.3240619,\n    \"packed\": 4.58608055,\n    \"roaring\": 7.29482535,\n    \"sql\": 8.23477455\n  },\n  \"fastest_reference_s\": 4.094148,\n  \"prefix_wins_vs_sql\": 24,\n  \"prefix_wins_vs_dense\": 25,\n  \"resident_cases\": 250\n}\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\revision\\verify_release.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 2.392954600043595,
+      "output": "bts 1 snapshots 720 records\nci-fresh 128 snapshots 230400 records\nci-memo 1226 snapshots 735600 records\nci-order 128 snapshots 76800 records\nci-pair 1226 snapshots 490400 records\nengine 8 snapshots 218880 records\nmatched_engine 8 snapshots 300 records\npan-direct 1064 snapshots 31920 records\npan-order 128 snapshots 1920 records\npan-runs 1064 snapshots 37240 records\nroaring-bts 1 snapshots 540 records\nroaring-ci 128 snapshots 76800 records\nroaring-domains 8 snapshots 34560 records\nVerified 1936080 timed method-request observations\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\revision\\ci_payback.py",
+        "--packed",
+        ".\\research\\artifact\\revision\\evidence",
+        "--tex",
+        "outputs\\published\\summary\\observed-payback.tex",
+        "--json",
+        "outputs\\published\\summary\\observed-payback.json"
+      ],
+      "returncode": 0,
+      "elapsed_s": 49.696582600008696,
+      "output": "ci-pair 1226\nmethod\nbitmap_direct    22.240\ntree_direct      22.258\ntree_direct all/positive premium 1226 600 sustained among premium [np.int64(30), np.int64(81), np.int64(181), np.int64(0), np.int64(308)] all endpoint wins/unanimous win,loss 659 41 26\nci-memo 1226\nmethod\nbitmap_direct_memo    2.946\nsql_opt_memo          0.765\ntree_direct_memo      3.030\ntree_direct_memo all/positive premium 1226 555 sustained among premium [np.int64(125), np.int64(5), np.int64(8), np.int64(0), np.int64(417)] all endpoint wins/unanimous win,loss 691 43 38\nci-fresh 128\nmethod\nbitmap_direct    2.300\nindependent      2.389\nlazy             2.335\nleaf             2.358\nonline_direct    2.339\nsql_opt          0.798\nsynopsis         1.788\ntree_direct      2.319\nwords            2.320\nonline_direct all/positive premium 128 78 sustained among premium [np.int64(3), np.int64(9), np.int64(16), np.int64(0), np.int64(50)] all endpoint wins/unanimous win,loss 56 7 11\ntree_direct all/positive premium 128 75 sustained among premium [np.int64(3), np.int64(7), np.int64(17), np.int64(0), np.int64(48)] all endpoint wins/unanimous win,loss 57 4 4\n"
+    }
+  ]
+}

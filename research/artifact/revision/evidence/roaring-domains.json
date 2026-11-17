@@ -1,0 +1,10 @@
+[
+  {
+    "file": "roaring-domains-1.parquet",
+    "first": "crash.tsv",
+    "last": "taxi.tsv",
+    "tables": 8,
+    "records": 34560,
+    "sha256": "81d8c31233a233ed7bfa28e9e2f65380a252569ab2485ef45a3f8f19165510b4"
+  }
+]

@@ -1,0 +1,613 @@
+[
+  {
+    "dataset": "ia_statewide",
+    "release": "yg821jf8611_ia_statewide_2020_04_01.rds",
+    "source": "https://stacks.stanford.edu/file/druid:yg821jf8611/yg821jf8611_ia_statewide_2020_04_01.rds",
+    "source_sha256": "5b4de761f9b761c7825ab6dc3043cebc27501c909d97594b0fbde49f45dc7acf",
+    "raw_rows": 2441335,
+    "vehicular_rows": 2079867,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "location",
+      "time",
+      "subject_sex",
+      "citation_issued",
+      "subject_age",
+      "warning_issued",
+      "violation",
+      "officer_id_hash",
+      "county_name",
+      "vehicle_make"
+    ],
+    "queries": [
+      "week"
+    ],
+    "projected_sha256": "ceb339553e61b20cd5b3559d9d869fb984012b793234302bf941a12d504a917f",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "ae147b0d70981a6a0e16cdf0b542d79892b06a57ea4fed4d44fa7f9c11b29e23"
+    }
+  },
+  {
+    "dataset": "ky_louisville",
+    "release": "wb225bk3255_ky_louisville_2023_01_26.rds",
+    "source": "https://stacks.stanford.edu/file/druid:wb225bk3255/wb225bk3255_ky_louisville_2023_01_26.rds",
+    "source_sha256": "54b8c0b554dfae10d56c9e097daa3f876fb88302afd250c9951c2e233da98327",
+    "raw_rows": 146562,
+    "vehicular_rows": 146562,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "location",
+      "time",
+      "subject_sex",
+      "citation_issued",
+      "subject_age",
+      "lat",
+      "lng",
+      "warning_issued",
+      "search_conducted",
+      "violation",
+      "search_basis"
+    ],
+    "queries": [
+      "week"
+    ],
+    "projected_sha256": "254ef32cd77f620c77cae8b584ff348e92f70e0426638b3d4a6652ea8712898e",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "42fc8842389c7aede8f740316651275d61e2f4b4cb98cc520391fe7f47402b9f"
+    }
+  },
+  {
+    "dataset": "tn_nashville",
+    "release": "yg821jf8611_tn_nashville_2020_04_01.rds",
+    "source": "https://stacks.stanford.edu/file/druid:yg821jf8611/yg821jf8611_tn_nashville_2020_04_01.rds",
+    "source_sha256": "97833a133bb20eed4ce59eaaa3e123c833ed7004c25086b54f1d39d781dbe431",
+    "raw_rows": 3092351,
+    "vehicular_rows": 3092351,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "location",
+      "time",
+      "subject_sex",
+      "citation_issued",
+      "subject_age",
+      "lat",
+      "lng",
+      "warning_issued",
+      "arrest_made",
+      "search_conducted",
+      "violation",
+      "officer_id_hash",
+      "contraband_found",
+      "search_basis",
+      "reason_for_stop"
+    ],
+    "queries": [
+      "week"
+    ],
+    "projected_sha256": "62b5006c17df3cd4ec09b87ddbdaa1772bc2981b1a5840cba9689a343d6c084e",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "60b69e771c67d9aac5506e3de5a15501236c2ce6a781b7f3b1d4b20142c6c17a"
+    }
+  },
+  {
+    "dataset": "mn_saint_paul",
+    "release": "yg821jf8611_mn_saint_paul_2020_04_01.rds",
+    "source": "https://stacks.stanford.edu/file/druid:yg821jf8611/yg821jf8611_mn_saint_paul_2020_04_01.rds",
+    "source_sha256": "1f2d9d92d03f71bb8ab8541ce4700f8c13849bf36ac9faef2320deeb0e359963",
+    "raw_rows": 675156,
+    "vehicular_rows": 675156,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "time",
+      "subject_sex",
+      "citation_issued",
+      "subject_age",
+      "lat",
+      "lng",
+      "search_conducted"
+    ],
+    "queries": [
+      "week"
+    ],
+    "projected_sha256": "045c34f728222bc467f3aa8d5d60c92ce249ff420d87d852d38a14e574eef112",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "b208ebdcdb0df7d9f8b9e3169e8414118b088f44a80bcf46d409dac1e289b12e"
+    }
+  },
+  {
+    "dataset": "sc_statewide",
+    "release": "yg821jf8611_sc_statewide_2020_04_01.rds",
+    "source": "https://stacks.stanford.edu/file/druid:yg821jf8611/yg821jf8611_sc_statewide_2020_04_01.rds",
+    "source_sha256": "7d00c55e687966bfddd363f6bd0ccb4011da00cb82b44fdaa3a401d290485211",
+    "raw_rows": 8983810,
+    "vehicular_rows": 8939112,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "location",
+      "subject_sex",
+      "citation_issued",
+      "subject_age",
+      "lat",
+      "lng",
+      "arrest_made",
+      "search_conducted",
+      "violation",
+      "officer_id_hash",
+      "contraband_found",
+      "reason_for_stop",
+      "county_name"
+    ],
+    "queries": [
+      "week"
+    ],
+    "projected_sha256": "6d1004ec93b61c3bc6dc4bf1409d827863ba9fcb5a4324a14fe20c2bcdd592ba",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "ca9cdc739ff2fb5fbcda9caed11795b71157248e1dfcd011cc7d90504a07ea60"
+    }
+  },
+  {
+    "dataset": "ks_wichita",
+    "release": "wb225bk3255_ks_wichita_2023_01_26.rds",
+    "source": "https://stacks.stanford.edu/file/druid:wb225bk3255/wb225bk3255_ks_wichita_2023_01_26.rds",
+    "source_sha256": "c5bb79b6db047c3f79ad8678bea2b3acceaa1e1a21c559940dbedb34be882de0",
+    "raw_rows": 1030376,
+    "vehicular_rows": 1024494,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "location",
+      "time",
+      "subject_sex",
+      "citation_issued",
+      "subject_age",
+      "lat",
+      "lng",
+      "violation",
+      "vehicle_make"
+    ],
+    "queries": [
+      "week"
+    ],
+    "projected_sha256": "4e76b8e945761632a00458281b6d3bd9e84560c6dc4d30e875568816175ea14b",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "39934effbe2665487c650e02ccf981f5bd5e251e7a9e540d5ddb5ee9a027cfb5"
+    }
+  },
+  {
+    "dataset": "ca_los_angeles",
+    "release": "yg821jf8611_ca_los_angeles_2020_04_01.rds",
+    "source": "https://stacks.stanford.edu/file/druid:yg821jf8611/yg821jf8611_ca_los_angeles_2020_04_01.rds",
+    "source_sha256": "ce29d1b25ce8a8157746b6b8da2fbbaeefa2695aef33639122a07090dd810b5b",
+    "raw_rows": 5418402,
+    "vehicular_rows": 4135353,
+    "fields": [
+      "date",
+      "subject_race",
+      "time",
+      "subject_sex",
+      "officer_id_hash"
+    ],
+    "queries": [
+      "week"
+    ],
+    "projected_sha256": "252754fc1c6fe517d49e464de92558ea1df86ff8794890d17ae473784f616361",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "779413827daaa1bb471f80ec9cd1245f069a7e951cc1cacf5dd463624eec9792"
+    }
+  },
+  {
+    "dataset": "ca_bakersfield",
+    "release": "yg821jf8611_ca_bakersfield_2020_04_01.rds",
+    "source": "https://stacks.stanford.edu/file/druid:yg821jf8611/yg821jf8611_ca_bakersfield_2020_04_01.rds",
+    "source_sha256": "63493a899f4e18ae3568a348134d5c775e4261f7eeecf6a4ffd70950f78dec74",
+    "raw_rows": 189685,
+    "vehicular_rows": 189685,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "location",
+      "time",
+      "subject_sex",
+      "citation_issued",
+      "subject_age",
+      "lat",
+      "lng",
+      "officer_id_hash"
+    ],
+    "queries": [
+      "week"
+    ],
+    "projected_sha256": "a59954ab0eca8f05e2497b84d7e1865eb42eab940d4000d19abca14e98979c73",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "0d260a0a40e555c912f6873a8c3cd3c55c422b07c8c8a2ea01434d1c0a013f2b"
+    }
+  },
+  {
+    "dataset": "fl_tampa",
+    "release": "yg821jf8611_fl_tampa_2020_04_01.rds",
+    "source": "https://stacks.stanford.edu/file/druid:yg821jf8611/yg821jf8611_fl_tampa_2020_04_01.rds",
+    "source_sha256": "392fc831fa47fe209da15cafe586efb520aa55c1e94cb0a1cd96a847430fb6a7",
+    "raw_rows": 2818240,
+    "vehicular_rows": 2818240,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "subject_sex",
+      "citation_issued",
+      "subject_age",
+      "violation"
+    ],
+    "queries": [
+      "week"
+    ],
+    "projected_sha256": "fd30c8561d2b981b3ac869fc51df07c3b5fbc29b61dcc386bdd8d55c054d0921",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "80b25d1b2dc6dbc0c229399e16ed0a454297f8c453676b71314e93cef3c15004"
+    }
+  },
+  {
+    "dataset": "az_statewide",
+    "release": "yg821jf8611_az_statewide_2020_04_01.rds",
+    "source": "https://stacks.stanford.edu/file/druid:yg821jf8611/yg821jf8611_az_statewide_2020_04_01.rds",
+    "source_sha256": "e12151f4493ba07059ee73ce726b296264892bda0c233667ccec5000a38bf0a0",
+    "raw_rows": 3498159,
+    "vehicular_rows": 3494158,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "location",
+      "time",
+      "subject_sex",
+      "citation_issued",
+      "warning_issued",
+      "arrest_made",
+      "search_conducted",
+      "violation",
+      "officer_id_hash",
+      "contraband_found",
+      "search_basis",
+      "reason_for_stop",
+      "county_name"
+    ],
+    "queries": [
+      "week"
+    ],
+    "projected_sha256": "920f271d7b8a4de768a5da15a97cdd6da1bf47a05c6d57eff10c6f1e73a8a48f",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "c63ba589c631b41300597d3dc9003b5218138069f8da4fd3e6723a0c13a4cb90"
+    }
+  },
+  {
+    "dataset": "co_aurora",
+    "release": "wb225bk3255_co_aurora_2023_01_26.rds",
+    "source": "https://stacks.stanford.edu/file/druid:wb225bk3255/wb225bk3255_co_aurora_2023_01_26.rds",
+    "source_sha256": "35df67addf21512f4fe5f1836d7ca87ea6f6b6ba53abf3ea17cdd6406c28796d",
+    "raw_rows": 257606,
+    "vehicular_rows": 246312,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "location",
+      "time",
+      "subject_sex",
+      "citation_issued",
+      "subject_age",
+      "lat",
+      "lng",
+      "violation"
+    ],
+    "queries": [
+      "week"
+    ],
+    "projected_sha256": "d56ff54cb65e727ec71405a81e44aa7158a76da18a6ecfa262f8bdf7ab298fb7",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "1bd35a92abcf784541fd80d4c916d952da9257b90e23cef6d05b522ebd684efc"
+    }
+  },
+  {
+    "dataset": "ca_statewide",
+    "release": "wb225bk3255_ca_statewide_2023_01_26.rds",
+    "source": "https://stacks.stanford.edu/file/druid:wb225bk3255/wb225bk3255_ca_statewide_2023_01_26.rds",
+    "source_sha256": "59cbf758779229b542ed1a880ccc4b10bf7f2d696bac9291f7fbc0227df32e2b",
+    "raw_rows": 31778515,
+    "vehicular_rows": 31778515,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "subject_sex",
+      "citation_issued",
+      "warning_issued",
+      "arrest_made",
+      "search_conducted",
+      "violation",
+      "contraband_found",
+      "search_basis",
+      "reason_for_stop",
+      "county_name"
+    ],
+    "queries": [
+      "week"
+    ],
+    "projected_sha256": "3208303106e4948bd0558fd4352364920a0334d44862ba7f2f68754456de12f3",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "98c5ddc8236a930104fc82e7300fbb39d7940a07bb6fb4d6f640d022c03cde15"
+    }
+  },
+  {
+    "dataset": "il_chicago",
+    "release": "wb225bk3255_il_chicago_2023_01_26.rds",
+    "source": "https://stacks.stanford.edu/file/druid:wb225bk3255/wb225bk3255_il_chicago_2023_01_26.rds",
+    "source_sha256": "57c0213de86ffdd4b36dd854aeb04662e4516754824f4fbc0ec820d8e9e822fb",
+    "raw_rows": 2108098,
+    "vehicular_rows": 2098565,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "location",
+      "time",
+      "subject_sex",
+      "citation_issued",
+      "subject_age",
+      "lat",
+      "lng",
+      "arrest_made",
+      "search_conducted",
+      "violation",
+      "officer_id_hash",
+      "contraband_found",
+      "vehicle_make"
+    ],
+    "queries": [
+      "week",
+      "hour"
+    ],
+    "projected_sha256": "d97574cb6c48a11debea6d8ddaf1c65d95b9861b02906ffac7528a0678bea6fc",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "74ea745281490c3d3e4ac1b8207267a521c2df352f64065ba2fc69a3b58581dd",
+      "hour": "2ef40b29976c43c44a839bb5f80a78b2896eda1a8181054c042561b0348e9bd5"
+    }
+  },
+  {
+    "dataset": "co_statewide",
+    "release": "yg821jf8611_co_statewide_2020_04_01.rds",
+    "source": "https://stacks.stanford.edu/file/druid:yg821jf8611/yg821jf8611_co_statewide_2020_04_01.rds",
+    "source_sha256": "dafcf6694555192c276a09f6f4cb20f6de14a0cd0fee0526a743b0a96ababf8c",
+    "raw_rows": 3112853,
+    "vehicular_rows": 3112853,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "location",
+      "time",
+      "subject_sex",
+      "citation_issued",
+      "subject_age",
+      "warning_issued",
+      "arrest_made",
+      "search_conducted",
+      "violation",
+      "officer_id_hash",
+      "contraband_found",
+      "search_basis",
+      "county_name"
+    ],
+    "queries": [
+      "week"
+    ],
+    "projected_sha256": "d7faceac3947a847cabd9c029597307ac0d7c044acb54e85b6a77c285fcaa172",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "820584ada73c83ec3f876587f8d1517d9278055b82f41142bddff31e7777ff55"
+    }
+  },
+  {
+    "dataset": "md_statewide",
+    "release": "yg821jf8611_md_statewide_2020_04_01.rds",
+    "source": "https://stacks.stanford.edu/file/druid:yg821jf8611/yg821jf8611_md_statewide_2020_04_01.rds",
+    "source_sha256": "dd11d958d62a58b7b36d67ab2fdb45ef272ef310257217dce4034df7f93287bc",
+    "raw_rows": 3669665,
+    "vehicular_rows": 3669665,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "location",
+      "time",
+      "subject_sex",
+      "citation_issued",
+      "subject_age",
+      "warning_issued",
+      "arrest_made",
+      "search_conducted",
+      "violation",
+      "contraband_found",
+      "search_basis",
+      "reason_for_stop"
+    ],
+    "queries": [
+      "week",
+      "hour"
+    ],
+    "projected_sha256": "9e28beceefa5350e1fa2fd9aea59ee4f607104075c505cfbdf823b0839399e5b",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "02fdca973fc36ef1805fa26da5412bc8b9e469ff864f6cf36131e815752613b2",
+      "hour": "c804042ea70507f607fd9d0a6e1debdc809e8f6e0c62f771073616af926327c9"
+    }
+  },
+  {
+    "dataset": "nj_statewide",
+    "release": "yg821jf8611_nj_statewide_2020_04_01.rds",
+    "source": "https://stacks.stanford.edu/file/druid:yg821jf8611/yg821jf8611_nj_statewide_2020_04_01.rds",
+    "source_sha256": "c43cae2abbce6b402fd6650b83101c5b4e6dda2f001302d700af396f60930379",
+    "raw_rows": 3845334,
+    "vehicular_rows": 3845334,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "location",
+      "time",
+      "subject_sex",
+      "citation_issued",
+      "warning_issued",
+      "arrest_made",
+      "search_conducted",
+      "violation",
+      "officer_id_hash",
+      "contraband_found",
+      "vehicle_make"
+    ],
+    "queries": [
+      "week",
+      "hour"
+    ],
+    "projected_sha256": "ec18f0e48b589a3d3ebf1131bf59e6b8926fe2e4cfe956cc84e9c86770596cca",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "9526bacc3335b90b41fdd2d3d2392c8749534c799460036c9bc0d9d8516b4e31",
+      "hour": "df5e65b294a9dccddf73f792ae7cac3255dbcbf5795f0f67649a14204786f81a"
+    }
+  },
+  {
+    "dataset": "oh_statewide",
+    "release": "yg821jf8611_oh_statewide_2020_04_01.rds",
+    "source": "https://stacks.stanford.edu/file/druid:yg821jf8611/yg821jf8611_oh_statewide_2020_04_01.rds",
+    "source_sha256": "c339b3d826ea1edd968b2be5d0588b2d8a107a8c50c90e0cc887990ad8df7e78",
+    "raw_rows": 7225577,
+    "vehicular_rows": 7225577,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "location",
+      "time",
+      "subject_sex",
+      "lat",
+      "lng",
+      "warning_issued",
+      "arrest_made",
+      "search_conducted",
+      "violation",
+      "officer_id_hash",
+      "contraband_found",
+      "search_basis",
+      "county_name"
+    ],
+    "queries": [
+      "week",
+      "hour"
+    ],
+    "projected_sha256": "f84e3861ec5bc8db05dc57d697f2728b95534137d1638032c71f9f968526d9f5",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "1ab97cd75caa589017b54bc907953f722fc187f98097cd633d9bd4fa492b3019",
+      "hour": "2e01c82631f0a19c2f654477d0d406f2a49b788c5d1254e1482a845e9375ee14"
+    }
+  },
+  {
+    "dataset": "wa_statewide",
+    "release": "yg821jf8611_wa_statewide_2020_04_01.rds",
+    "source": "https://stacks.stanford.edu/file/druid:yg821jf8611/yg821jf8611_wa_statewide_2020_04_01.rds",
+    "source_sha256": "d3c848bc43be6d2f9d29d1f532f807ae282162cd3293416d4018e933fd56f149",
+    "raw_rows": 11333425,
+    "vehicular_rows": 11333425,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "location",
+      "time",
+      "subject_sex",
+      "citation_issued",
+      "subject_age",
+      "lat",
+      "lng",
+      "warning_issued",
+      "arrest_made",
+      "search_conducted",
+      "violation",
+      "contraband_found",
+      "search_basis",
+      "county_name"
+    ],
+    "queries": [
+      "week",
+      "hour"
+    ],
+    "projected_sha256": "bb50d019a81d2c932ef90b598164d2eb007c2c09c0e9ed82040746db7200bd33",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "e4f3b631a40713c9ca66cd9ea797eba7d4fce58db44e1485ef56db7b945fb4f7",
+      "hour": "09e32dc2584400e1f15bc22840b0858bd9b27a0b3d9a89a28f7ac23fd8dfadb0"
+    }
+  },
+  {
+    "dataset": "wi_statewide",
+    "release": "yg821jf8611_wi_statewide_2020_04_01.rds",
+    "source": "https://stacks.stanford.edu/file/druid:yg821jf8611/yg821jf8611_wi_statewide_2020_04_01.rds",
+    "source_sha256": "42d625ae1d8301594ed6345ad1428eb83fcc021c1719217b048dab8714ba5716",
+    "raw_rows": 1058902,
+    "vehicular_rows": 1058902,
+    "fields": [
+      "date",
+      "subject_race",
+      "outcome",
+      "location",
+      "time",
+      "subject_sex",
+      "citation_issued",
+      "lat",
+      "lng",
+      "warning_issued",
+      "arrest_made",
+      "search_conducted",
+      "violation",
+      "contraband_found",
+      "search_basis",
+      "county_name",
+      "vehicle_make"
+    ],
+    "queries": [
+      "week",
+      "hour"
+    ],
+    "projected_sha256": "2a77d49aa12d5637c0e416394181ec13e474f2d3086d17eb12839a11d1905cb8",
+    "program": "https://github.com/saatvikkher/missing-traffic/blob/9abc320a6b1bf7fd27ea3c7964dd9ed8a69a81f6",
+    "oracle": {
+      "week": "7d1a76c5dc2b02205785a43c443225ab96232d5ab78272e456e7b225c4926364",
+      "hour": "9ee8ac194610d54b9bced94a7e5b4f6c21c721b00f5fde73547bdcaf4ae588ef"
+    }
+  }
+]

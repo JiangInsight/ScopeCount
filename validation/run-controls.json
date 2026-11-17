@@ -1,0 +1,36 @@
+{
+  "stage": "benchmark",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.12",
+  "versions": {
+    "duckdb": "1.5.5",
+    "pyarrow": "24.0.0",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3"
+  },
+  "performance_claim": null,
+  "commands": [
+    {
+      "command": [
+        ".\\research\\artifact\\fused\\controls.py",
+        "--out",
+        "outputs\\controls\\controls",
+        "--reps",
+        "7"
+      ],
+      "returncode": 0,
+      "elapsed_s": 5.587818400003016,
+      "output": "runs few_scores {'runs': 4.04, 'sql_counts': 17.11, 'sql_row_total': 19.29, 'weight': 2.92, 'wliteral': 3.2, 'wmargin': 3.11, 'wrows': 4.49}\nruns independent {'runs': 3.61, 'sql_counts': 31.23, 'sql_row_total': 18.04, 'weight': 3.12, 'wliteral': 3.64, 'wmargin': 3.67, 'wrows': 4.01}\ninterleaved few_scores {'runs': 5.23, 'sql_counts': 18.35, 'sql_row_total': 17.63, 'weight': 4.93, 'wliteral': 4.49, 'wmargin': 4.8, 'wrows': 3.8}\ninterleaved independent {'runs': 4.96, 'sql_counts': 31.41, 'sql_row_total': 17.63, 'weight': 4.84, 'wliteral': 5.09, 'wmargin': 5.1, 'wrows': 4.0}\nmany few_scores {'runs': 6.91, 'sql_counts': 22.81, 'sql_row_total': 24.1, 'weight': 7.21, 'wliteral': 7.02, 'wmargin': 6.98, 'wrows': 5.47}\nmany independent {'runs': 6.99, 'sql_counts': 37.76, 'sql_row_total': 23.69, 'weight': 8.23, 'wliteral': 7.98, 'wmargin': 7.54, 'wrows': 5.67}\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\pageaudit\\segment_controls.py",
+        "--out",
+        "outputs\\controls\\segment-controls\\trials.tsv"
+      ],
+      "returncode": 0,
+      "elapsed_s": 9.607458899961784,
+      "output": "method       endpoint    packed  segment  segment_one        sql\nlayout                                                          \ninterleaved  22.67395  23.81400  22.9107     22.92025  255.77610\ntwo_epochs   21.73330  23.77885  21.3197     21.67175  250.92305\n"
+    }
+  ]
+}

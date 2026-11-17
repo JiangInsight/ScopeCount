@@ -1,0 +1,10 @@
+[
+  {
+    "file": "roaring-ci-1.parquet",
+    "first": "mdb-101-routes.tsv",
+    "last": "mdb-979-trips.tsv",
+    "tables": 128,
+    "records": 76800,
+    "sha256": "0831ed5b820c31538bd0497cf696e95868bd5e64f4c6c0068ccf926862230a53"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "file": "ci-order-1.parquet",
+    "first": "mdb-101-routes.tsv",
+    "last": "mdb-979-trips.tsv",
+    "tables": 128,
+    "records": 76800,
+    "sha256": "fc049b38ef43829bf8c54e9842b62810129219db6ba25c6f592388b886411f97"
+  }
+]

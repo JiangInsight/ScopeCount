@@ -1,0 +1,117 @@
+{
+  "stage": "verify",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.12",
+  "versions": {
+    "duckdb": "1.5.5",
+    "pyarrow": "24.0.0",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3"
+  },
+  "performance_claim": false,
+  "commands": [
+    {
+      "command": [
+        ".\\research\\artifact\\fused\\verify.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 2.3206486999988556,
+      "output": "288 ordered full-result comparisons against native SQL passed\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\fused\\verify_cover.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 2.564817900012713,
+      "output": "240 weighted grouped answers matched native relational aggregation\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\fused\\forest_verify.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 0.5265353000140749,
+      "output": "checked 664 binary tables and 664 distinct measured-cell schedules\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\pageaudit\\check_width.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.6113197000231594,
+      "output": "96 wide-score results agree on clipped and complete pages.\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\pageaudit\\check.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 5.296305100026075,
+      "output": "All encoded-stream, footer, grouping and half-open slice regressions passed.\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\pageaudit\\check_partial.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.3604377000010572,
+      "output": "120 file-to-result slice checks passed.\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\engine\\verify_engine.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.9936617000494152,
+      "output": "Checked shuffled row IDs, rejected invalid IDs, empty input, word boundaries, high-bit and duplicate predicates, empty slices and result-cache reuse.\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\engine\\verify_engine.py",
+        "--roaring"
+      ],
+      "returncode": 0,
+      "elapsed_s": 2.2802503000129946,
+      "output": "Checked shuffled row IDs, rejected invalid IDs, empty input, word boundaries, high-bit and duplicate predicates, empty slices and result-cache reuse.\n"
+    },
+    {
+      "command": [
+        "compiled\\native\\test_pivot.exe"
+      ],
+      "returncode": 0,
+      "output": "Verified 145781 labeled slices plus tie cases.\n"
+    },
+    {
+      "command": [
+        "compiled\\native\\test_segments.exe"
+      ],
+      "returncode": 0,
+      "output": "Verified 64 canonical run sequences, 91850 measurement schedules and the ten-run example.\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\revision\\recompilation_witness.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 0.5020518000237644,
+      "output": "Reoptimized range reads, indexed by purchased mask: [3, 2, 2, 2, 2, 1, 1, 0]\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\revision\\base_admission.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.5183313000015914,
+      "output": "verified prefixes 240 base activations 24 max ratio 1.8082\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\revision\\verify_release.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 3.6280578000005335,
+      "output": "bts 1 snapshots 720 records\nci-fresh 128 snapshots 230400 records\nci-memo 1226 snapshots 735600 records\nci-order 128 snapshots 76800 records\nci-pair 1226 snapshots 490400 records\nengine 8 snapshots 218880 records\nmatched_engine 8 snapshots 300 records\npan-direct 1064 snapshots 31920 records\npan-order 128 snapshots 1920 records\npan-runs 1064 snapshots 37240 records\nroaring-bts 1 snapshots 540 records\nroaring-ci 128 snapshots 76800 records\nroaring-domains 8 snapshots 34560 records\nVerified 1936080 timed method-request observations\n"
+    }
+  ]
+}

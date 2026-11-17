@@ -1,0 +1,10 @@
+[
+  {
+    "file": "pan-order-1.parquet",
+    "first": "12601-trips.tsv",
+    "last": "84279-trips.tsv",
+    "tables": 128,
+    "records": 1920,
+    "sha256": "50963283e36cdd35eda2984f1826b4843926b9c9f4317dfeca5785082eb86c16"
+  }
+]

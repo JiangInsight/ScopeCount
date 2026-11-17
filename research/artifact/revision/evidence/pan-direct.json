@@ -1,0 +1,74 @@
+[
+  {
+    "file": "pan-direct-1.parquet",
+    "first": "10230-routes.tsv",
+    "last": "79818-trips.tsv",
+    "tables": 128,
+    "records": 3840,
+    "sha256": "a587eae9f2f48298fea5370cfc003f3025500c85926f445840d1adcf537958d3"
+  },
+  {
+    "file": "pan-direct-2.parquet",
+    "first": "79821-routes.tsv",
+    "last": "80694-trips.tsv",
+    "tables": 128,
+    "records": 3840,
+    "sha256": "582ac468756be264c9fdc0b1a41d61a58e3e3cc2306cb6a1328b3214d8202ba8"
+  },
+  {
+    "file": "pan-direct-3.parquet",
+    "first": "80701-routes.tsv",
+    "last": "81535-trips.tsv",
+    "tables": 128,
+    "records": 3840,
+    "sha256": "efe21ede1d9bc9b8ffec5fada0d9e3a5467254dcac1500c9c952be8f23f18b88"
+  },
+  {
+    "file": "pan-direct-4.parquet",
+    "first": "81539-routes.tsv",
+    "last": "82276-trips.tsv",
+    "tables": 128,
+    "records": 3840,
+    "sha256": "cc5a7ca5a204dc6c0d762046f46fe60cde7ad3e3a55b124a3813aadb9f171873"
+  },
+  {
+    "file": "pan-direct-5.parquet",
+    "first": "82277-routes.tsv",
+    "last": "82683-trips.tsv",
+    "tables": 128,
+    "records": 3840,
+    "sha256": "2b159de690aac346e2f06908262b27e371c76da00216bdec2999542b4072b05d"
+  },
+  {
+    "file": "pan-direct-6.parquet",
+    "first": "82689-routes.tsv",
+    "last": "83510-trips.tsv",
+    "tables": 128,
+    "records": 3840,
+    "sha256": "1262ba0841658c8ed11f124f2ddc142c6abde6af63bf978bfcd740f67990777a"
+  },
+  {
+    "file": "pan-direct-7.parquet",
+    "first": "83511-routes.tsv",
+    "last": "83915-trips.tsv",
+    "tables": 128,
+    "records": 3840,
+    "sha256": "204e296f5807dae25ea58b298b509540965cdf2b40404ba135170f61f973e6c1"
+  },
+  {
+    "file": "pan-direct-8.parquet",
+    "first": "83922-routes.tsv",
+    "last": "84234-trips.tsv",
+    "tables": 128,
+    "records": 3840,
+    "sha256": "7acd9700d9efcd9a0836d4f89054a32ac2075428af170b44168cd024242f72a4"
+  },
+  {
+    "file": "pan-direct-9.parquet",
+    "first": "84235-routes.tsv",
+    "last": "8597-trips.tsv",
+    "tables": 40,
+    "records": 1200,
+    "sha256": "3b32fccbf739ede73ea8e09d225a9d3c17a877488572ffb16d9fcf6a041b0574"
+  }
+]

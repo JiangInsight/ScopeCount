@@ -1,0 +1,28 @@
+288 ordered full-result comparisons against native SQL passed
+240 weighted grouped answers matched native relational aggregation
+checked 664 binary tables and 664 distinct measured-cell schedules
+96 wide-score results agree on clipped and complete pages.
+All encoded-stream, footer, grouping and half-open slice regressions passed.
+120 file-to-result slice checks passed.
+Checked shuffled row IDs, rejected invalid IDs, empty input, word boundaries, high-bit and duplicate predicates, empty slices and result-cache reuse.
+Checked shuffled row IDs, rejected invalid IDs, empty input, word boundaries, high-bit and duplicate predicates, empty slices and result-cache reuse.
+Verified 145781 labeled slices plus tie cases.
+
+Verified 64 canonical run sequences, 91850 measurement schedules and the ten-run example.
+
+Reoptimized range reads, indexed by purchased mask: [3, 2, 2, 2, 2, 1, 1, 0]
+verified prefixes 240 base activations 24 max ratio 1.8082
+bts 1 snapshots 720 records
+ci-fresh 128 snapshots 230400 records
+ci-memo 1226 snapshots 735600 records
+ci-order 128 snapshots 76800 records
+ci-pair 1226 snapshots 490400 records
+engine 8 snapshots 218880 records
+matched_engine 8 snapshots 300 records
+pan-direct 1064 snapshots 31920 records
+pan-order 128 snapshots 1920 records
+pan-runs 1064 snapshots 37240 records
+roaring-bts 1 snapshots 540 records
+roaring-ci 128 snapshots 76800 records
+roaring-domains 8 snapshots 34560 records
+Verified 1936080 timed method-request observations

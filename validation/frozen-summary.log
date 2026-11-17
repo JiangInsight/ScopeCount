@@ -1,0 +1,56 @@
+{
+  "audits": 25,
+  "jurisdictions": 19,
+  "oracle_tuples": 9020,
+  "oracle_hashes_verified": 25,
+  "rounds": 10,
+  "sum_of_query_medians_s": {
+    "dense": 4.9186046,
+    "endpoint": 3.3240619,
+    "packed": 4.58608055,
+    "roaring": 7.29482535,
+    "sql": 8.23477455
+  },
+  "fastest_reference_s": 4.094148,
+  "prefix_wins_vs_sql": 24,
+  "prefix_wins_vs_dense": 25,
+  "resident_cases": 250
+}
+bts 1 snapshots 720 records
+ci-fresh 128 snapshots 230400 records
+ci-memo 1226 snapshots 735600 records
+ci-order 128 snapshots 76800 records
+ci-pair 1226 snapshots 490400 records
+engine 8 snapshots 218880 records
+matched_engine 8 snapshots 300 records
+pan-direct 1064 snapshots 31920 records
+pan-order 128 snapshots 1920 records
+pan-runs 1064 snapshots 37240 records
+roaring-bts 1 snapshots 540 records
+roaring-ci 128 snapshots 76800 records
+roaring-domains 8 snapshots 34560 records
+Verified 1936080 timed method-request observations
+ci-pair 1226
+method
+bitmap_direct    22.240
+tree_direct      22.258
+tree_direct all/positive premium 1226 600 sustained among premium [np.int64(30), np.int64(81), np.int64(181), np.int64(0), np.int64(308)] all endpoint wins/unanimous win,loss 659 41 26
+ci-memo 1226
+method
+bitmap_direct_memo    2.946
+sql_opt_memo          0.765
+tree_direct_memo      3.030
+tree_direct_memo all/positive premium 1226 555 sustained among premium [np.int64(125), np.int64(5), np.int64(8), np.int64(0), np.int64(417)] all endpoint wins/unanimous win,loss 691 43 38
+ci-fresh 128
+method
+bitmap_direct    2.300
+independent      2.389
+lazy             2.335
+leaf             2.358
+online_direct    2.339
+sql_opt          0.798
+synopsis         1.788
+tree_direct      2.319
+words            2.320
+online_direct all/positive premium 128 78 sustained among premium [np.int64(3), np.int64(9), np.int64(16), np.int64(0), np.int64(50)] all endpoint wins/unanimous win,loss 56 7 11
+tree_direct all/positive premium 128 75 sustained among premium [np.int64(3), np.int64(7), np.int64(17), np.int64(0), np.int64(48)] all endpoint wins/unanimous win,loss 57 4 4

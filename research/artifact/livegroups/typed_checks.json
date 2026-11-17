@@ -1,0 +1,85 @@
+[
+  {
+    "dataset": "ca_bakersfield",
+    "rows": 189685,
+    "schema": {
+      "week": "uint32",
+      "hour": "uint32",
+      "v_date": "date32[day]",
+      "v_subject_race": "string",
+      "v_outcome": "string",
+      "v_location": "string",
+      "v_time": "time64[us]",
+      "v_subject_sex": "string",
+      "v_citation_issued": "bool",
+      "v_subject_age": "int64",
+      "v_lat": "double",
+      "v_lng": "double",
+      "v_officer_id_hash": "string"
+    },
+    "typed_bytes": 2774583,
+    "normalized_bytes": 383966,
+    "sha256": "96c37d5816d893a4bea677f45e3e989e786e6f529855b13f6bfa1f405b35e866",
+    "conversion_seconds": 1.1119417999871075,
+    "matched_masks": 11,
+    "matched_keys": [
+      "hour",
+      "week"
+    ]
+  },
+  {
+    "dataset": "co_aurora",
+    "rows": 246312,
+    "schema": {
+      "week": "uint32",
+      "hour": "uint32",
+      "v_date": "date32[day]",
+      "v_subject_race": "string",
+      "v_outcome": "string",
+      "v_location": "string",
+      "v_time": "time64[us]",
+      "v_subject_sex": "string",
+      "v_citation_issued": "bool",
+      "v_subject_age": "int64",
+      "v_lat": "double",
+      "v_lng": "double",
+      "v_violation": "string"
+    },
+    "typed_bytes": 2340879,
+    "normalized_bytes": 116485,
+    "sha256": "1d36f963f026da50e2e8da9883e94081582b14029500b5fe26cc50080f40d007",
+    "conversion_seconds": 0.8784521999768913,
+    "matched_masks": 11,
+    "matched_keys": [
+      "hour",
+      "week"
+    ]
+  },
+  {
+    "dataset": "mn_saint_paul",
+    "rows": 675156,
+    "schema": {
+      "week": "uint32",
+      "hour": "uint32",
+      "v_date": "date32[day]",
+      "v_subject_race": "string",
+      "v_outcome": "string",
+      "v_time": "time64[us]",
+      "v_subject_sex": "string",
+      "v_citation_issued": "bool",
+      "v_subject_age": "int64",
+      "v_lat": "double",
+      "v_lng": "double",
+      "v_search_conducted": "bool"
+    },
+    "typed_bytes": 3197751,
+    "normalized_bytes": 583889,
+    "sha256": "5cae0440171ad9ccc94010e944906fd1fbb4f85c2f466c9b06fc2fafff5ac3b5",
+    "conversion_seconds": 2.625152900000103,
+    "matched_masks": 10,
+    "matched_keys": [
+      "hour",
+      "week"
+    ]
+  }
+]

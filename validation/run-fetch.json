@@ -1,0 +1,25 @@
+{
+  "stage": "fetch",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.12",
+  "versions": {
+    "duckdb": "1.5.5",
+    "pyarrow": "24.0.0",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3"
+  },
+  "performance_claim": null,
+  "commands": [
+    {
+      "command": [
+        ".\\experiments\\fetch_stops.py",
+        "--cache",
+        ".\\datasets\\stops",
+        "ca_bakersfield"
+      ],
+      "returncode": 0,
+      "elapsed_s": 10.126538100012112,
+      "output": "ca_bakersfield 189685 rows; 523 groups; source and independent R oracle hashes matched\n"
+    }
+  ]
+}

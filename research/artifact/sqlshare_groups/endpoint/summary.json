@@ -1,0 +1,21 @@
+{
+  "records": 1350,
+  "requests": 27,
+  "groups": 13,
+  "rows": 926833,
+  "paid_ms": {
+    "dense": 327.18675,
+    "endpoint": 184.54635000000005,
+    "metadata_star": 123.1376,
+    "roaring": 328.8133,
+    "sql": 135.2235
+  },
+  "full_count_queries": 11,
+  "wins_dense_sql": 3,
+  "wins_dense_metadata_star": 0,
+  "wins_roaring_sql": 4,
+  "wins_roaring_metadata_star": 0,
+  "wins_endpoint_sql": 4,
+  "wins_endpoint_metadata_star": 1,
+  "extension_sha256": "49bfa86df85e4f0a725db1c16e9efd6f92062f969725417534501e54fe7a73c4"
+}

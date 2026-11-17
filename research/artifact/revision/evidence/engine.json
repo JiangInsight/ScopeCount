@@ -1,0 +1,10 @@
+[
+  {
+    "file": "engine-1.parquet",
+    "first": "crash.tsv",
+    "last": "taxi.tsv",
+    "tables": 8,
+    "records": 218880,
+    "sha256": "a55be376f4e2bc08091b9d685691b7f2ebe19f3533eff425197c4e2dc7db6f0f"
+  }
+]

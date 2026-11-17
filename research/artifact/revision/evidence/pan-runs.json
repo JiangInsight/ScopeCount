@@ -1,0 +1,74 @@
+[
+  {
+    "file": "pan-runs-1.parquet",
+    "first": "10230-routes.tsv",
+    "last": "79818-trips.tsv",
+    "tables": 128,
+    "records": 4480,
+    "sha256": "6ae2c006a858ca29ad0db74a4f1e76ff4df65f238255fec127c6acf2d85a2005"
+  },
+  {
+    "file": "pan-runs-2.parquet",
+    "first": "79821-routes.tsv",
+    "last": "80694-trips.tsv",
+    "tables": 128,
+    "records": 4480,
+    "sha256": "e9a3dae3a3c8d91ac5f68491f9450316334525c58f89bf3aa808eea3dd1dd701"
+  },
+  {
+    "file": "pan-runs-3.parquet",
+    "first": "80701-routes.tsv",
+    "last": "81535-trips.tsv",
+    "tables": 128,
+    "records": 4480,
+    "sha256": "31dc64bdf6270edf848f384408e0bb5eae08e23eef527f192fe6c1890d070111"
+  },
+  {
+    "file": "pan-runs-4.parquet",
+    "first": "81539-routes.tsv",
+    "last": "82276-trips.tsv",
+    "tables": 128,
+    "records": 4480,
+    "sha256": "5a899e8ff53224cf018550727aaea9ecaa51e24805c3c521ece3bad532eb9117"
+  },
+  {
+    "file": "pan-runs-5.parquet",
+    "first": "82277-routes.tsv",
+    "last": "82683-trips.tsv",
+    "tables": 128,
+    "records": 4480,
+    "sha256": "0e1772b768883b192bd1a3eb7fc3648ce28f2bd0e291cb80b57f390ef26f09bb"
+  },
+  {
+    "file": "pan-runs-6.parquet",
+    "first": "82689-routes.tsv",
+    "last": "83510-trips.tsv",
+    "tables": 128,
+    "records": 4480,
+    "sha256": "93b50b04315ec525f5f5a29eb5d74fce7c02ab596c6ac9d1b16a16374c592528"
+  },
+  {
+    "file": "pan-runs-7.parquet",
+    "first": "83511-routes.tsv",
+    "last": "83915-trips.tsv",
+    "tables": 128,
+    "records": 4480,
+    "sha256": "af4902debd7b3fb239173b1345d6b42c645dab29c3854e265fcf8729ec78c820"
+  },
+  {
+    "file": "pan-runs-8.parquet",
+    "first": "83922-routes.tsv",
+    "last": "84234-trips.tsv",
+    "tables": 128,
+    "records": 4480,
+    "sha256": "cb08f7e5c474614bacd6654196900567ba08691a1448e1f4bc13388dcecd769b"
+  },
+  {
+    "file": "pan-runs-9.parquet",
+    "first": "84235-routes.tsv",
+    "last": "8597-trips.tsv",
+    "tables": 40,
+    "records": 1400,
+    "sha256": "49e212d4a53ef6ad250eb3623482eddfd7f424e07afa14788758de7223c6bfb9"
+  }
+]

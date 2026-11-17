@@ -1,0 +1,314 @@
+{
+  "stage": "quick",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.12",
+  "versions": {
+    "duckdb": "1.5.5",
+    "pyarrow": "24.0.0",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3"
+  },
+  "performance_claim": false,
+  "commands": [
+    {
+      "command": [
+        ".\\research\\artifact\\reproduce.py",
+        "restore"
+      ],
+      "returncode": 0,
+      "elapsed_s": 0.6188750000437722,
+      "output": "79 archived files verified\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\workload.py",
+        ".\\data\\crash.npz",
+        ".\\data\\diabetes.npz",
+        ".\\data\\maude.npz",
+        ".\\data\\nhanes.npz",
+        ".\\data\\scania.npz",
+        ".\\data\\storm.npz",
+        ".\\data\\survey.npz",
+        ".\\data\\taxi.npz"
+      ],
+      "returncode": 0,
+      "elapsed_s": 0.7888703000498936,
+      "output": ""
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\operational\\freeze_traces.py",
+        "restore",
+        "--root",
+        ".\\traces"
+      ],
+      "returncode": 0,
+      "elapsed_s": 3.3633757999632508,
+      "output": "Verified 5833 files\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\operational\\verify_traces.py",
+        "--root",
+        ".\\traces"
+      ],
+      "returncode": 0,
+      "elapsed_s": 50.69881009997334,
+      "output": "{\n  \"tables\": 2290,\n  \"verified\": {\n    \"transport\": {\n      \"rows\": 3581416,\n      \"scope_calls\": 1064,\n      \"values\": 2128\n    },\n    \"ci\": {\n      \"rows\": 6733663,\n      \"scope_calls\": 49040,\n      \"values\": 170280\n    }\n  }\n}\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\fused\\verify.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 2.4459353999700397,
+      "output": "288 ordered full-result comparisons against native SQL passed\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\fused\\verify_cover.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 2.644989499996882,
+      "output": "240 weighted grouped answers matched native relational aggregation\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\fused\\forest_verify.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 0.6526839999714866,
+      "output": "checked 664 binary tables and 664 distinct measured-cell schedules\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\pageaudit\\check_width.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.513368999992963,
+      "output": "96 wide-score results agree on clipped and complete pages.\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\pageaudit\\check.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 5.103233099973295,
+      "output": "All encoded-stream, footer, grouping and half-open slice regressions passed.\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\pageaudit\\check_partial.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.1991372999618761,
+      "output": "120 file-to-result slice checks passed.\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\engine\\verify_engine.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.5397894000052474,
+      "output": "Checked shuffled row IDs, rejected invalid IDs, empty input, word boundaries, high-bit and duplicate predicates, empty slices and result-cache reuse.\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\engine\\verify_engine.py",
+        "--roaring"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.7752383999759331,
+      "output": "Checked shuffled row IDs, rejected invalid IDs, empty input, word boundaries, high-bit and duplicate predicates, empty slices and result-cache reuse.\n"
+    },
+    {
+      "command": [
+        "compiled\\native\\test_pivot.exe"
+      ],
+      "returncode": 0,
+      "output": "Verified 145781 labeled slices plus tie cases.\n"
+    },
+    {
+      "command": [
+        "compiled\\native\\test_segments.exe"
+      ],
+      "returncode": 0,
+      "output": "Verified 64 canonical run sequences, 91850 measurement schedules and the ten-run example.\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\revision\\recompilation_witness.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 0.5281553999520838,
+      "output": "Reoptimized range reads, indexed by purchased mask: [3, 2, 2, 2, 2, 1, 1, 0]\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\revision\\base_admission.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.425163599953521,
+      "output": "verified prefixes 240 base activations 24 max ratio 1.8082\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\revision\\verify_release.py"
+      ],
+      "returncode": 0,
+      "elapsed_s": 3.239403499988839,
+      "output": "bts 1 snapshots 720 records\nci-fresh 128 snapshots 230400 records\nci-memo 1226 snapshots 735600 records\nci-order 128 snapshots 76800 records\nci-pair 1226 snapshots 490400 records\nengine 8 snapshots 218880 records\nmatched_engine 8 snapshots 300 records\npan-direct 1064 snapshots 31920 records\npan-order 128 snapshots 1920 records\npan-runs 1064 snapshots 37240 records\nroaring-bts 1 snapshots 540 records\nroaring-ci 128 snapshots 76800 records\nroaring-domains 8 snapshots 34560 records\nVerified 1936080 timed method-request observations\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\sqlshare_groups\\benchmark.py",
+        "--data",
+        ".\\datasets\\sqlshare\\data",
+        "--out",
+        "outputs\\cleanroom\\sqlshare-resident",
+        "--repeats",
+        "5"
+      ],
+      "returncode": 0,
+      "elapsed_s": 6.844899100018665,
+      "output": "{'records': 675, 'requests': 27, 'groups': 13, 'rows': 926833, 'paid_ms': {'metadata_star': 139.14499999999998, 'rows': 172.15470000000002, 'runs': 167.4272, 'sql': 130.2778, 'stream': 162.08249999999998}, 'full_count_queries': 11, 'wins_rows': 7, 'alltrials_rows': 1, 'wins_stream': 8, 'alltrials_stream': 1, 'wins_sql': 0, 'alltrials_sql': 0, 'wins_metadata_star': 0, 'alltrials_metadata_star': 0}\nmethod   metadata_star     rows     runs     sql   stream\ndataset                                                  \nq10320           0.374    1.830    1.966   0.482    2.012\nq1574            0.227    0.970    0.952   0.281    0.976\nq1575            0.241    0.858    0.879   0.255    0.878\nq1576            0.205    0.910    0.969   0.250    1.018\nq19666           8.617    8.906   11.301   8.766   10.479\nq19673           7.347   10.288    8.532   7.386    8.114\nq19967           0.537    1.776    1.775   0.564    1.828\nq20100          92.260  108.415  103.230  87.851  101.963\nq20410          10.428   10.859   11.625   7.270    9.082\nq3122           17.149   20.737   19.814  15.310   19.290\nq3126            0.261    0.977    0.931   0.268    0.976\nq4643            0.776    2.256    2.119   0.753    2.418\nq7007            0.722    3.373    3.332   0.843    3.048\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\sqlshare_groups\\benchmark.py",
+        "--file-replay",
+        "--data",
+        ".\\datasets\\sqlshare\\data",
+        "--out",
+        "outputs\\cleanroom\\sqlshare-file",
+        "--repeats",
+        "5",
+        "--methods",
+        "sql",
+        "metadata_star",
+        "dense",
+        "roaring",
+        "endpoint"
+      ],
+      "returncode": 0,
+      "elapsed_s": 8.557265200011898,
+      "output": "{'records': 675, 'requests': 27, 'groups': 13, 'rows': 926833, 'paid_ms': {'dense': 398.2981, 'endpoint': 232.1835, 'metadata_star': 151.94960000000003, 'roaring': 385.3372, 'sql': 156.68619999999999}, 'full_count_queries': 11, 'wins_dense_sql': 3, 'wins_dense_metadata_star': 1, 'wins_roaring_sql': 3, 'wins_roaring_metadata_star': 0, 'wins_endpoint_sql': 2, 'wins_endpoint_metadata_star': 1, 'extension_sha256': 'c33fefe18defc3029000b9548a7169f0ceb91e5409f3ee04538417dc43b31990'}\nmethod     dense  endpoint  metadata_star  roaring      sql\ndataset                                                    \nq10320     1.027     1.048          0.963    1.030    1.111\nq1574      0.739     0.558          0.516    0.587    0.504\nq1575      0.565     0.547          0.469    0.562    0.534\nq1576      0.555     0.544          0.481    0.606    0.512\nq19666    23.082    13.298          9.289   24.107    9.569\nq19673    20.552    14.068          7.712   20.486    8.693\nq19967     1.319     1.184          1.044    1.301    1.050\nq20100   253.495   150.204        103.841  244.932  105.968\nq20410    25.528    14.613          8.670   23.982    9.429\nq3122     67.129    31.996         15.332   62.733   14.647\nq3126      0.542     0.593          0.498    0.520    0.758\nq4643      1.469     1.584          1.557    2.050    2.049\nq7007      2.296     1.947          1.578    2.440    1.863\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\fused\\fcc.py",
+        "--base",
+        ".\\datasets\\fcc",
+        "--out",
+        "outputs\\cleanroom\\fcc",
+        "--reps",
+        "4",
+        "--layouts",
+        "original",
+        "shuffled"
+      ],
+      "returncode": 0,
+      "elapsed_s": 3.858265799994115,
+      "output": "original {'rows': 25.649, 'runs': 14.771, 'sql': 28.387, 'stream': 18.735}\nshuffled {'rows': 23.516, 'runs': 27.9, 'sql': 53.085, 'stream': 37.425}\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\pageaudit\\benchmark.py",
+        "--fcc",
+        ".\\datasets\\fcc",
+        "--stops",
+        ".\\datasets\\stops\\panels",
+        "--out",
+        "outputs\\cleanroom\\file",
+        "--repeats",
+        "5",
+        "--methods",
+        "sql",
+        "dense",
+        "roaring",
+        "packed",
+        "endpoint"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.9715935999993235,
+      "output": "fcc 11\nca_bakersfield-week 523\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\livegroups\\bench.py",
+        "--cache",
+        ".\\datasets\\stops",
+        "--extension",
+        ".\\compiled\\duckdb155_fused\\scopefused.duckdb_extension",
+        "--out",
+        "outputs\\cleanroom\\stops-resident",
+        "--reps",
+        "10",
+        "ca_bakersfield"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.454503900022246,
+      "output": "ca_bakersfield week 523 187226 {'sql_count': 1.63, 'sql_row': 3.9, 'scope_rows': 2.04, 'scope_stream': 2.85, 'scope_runs': 2.09, 'scope_wrows': 1.78, 'scope_wliteral': 1.64, 'scope_wmargin': 1.68, 'scope_weight': 1.74, 'row_degree': 0.96}\n"
+    },
+    {
+      "command": [
+        ".\\research\\artifact\\pageaudit\\degree.py",
+        "--cache",
+        ".\\datasets\\stops",
+        "--fcc",
+        ".\\datasets\\fcc",
+        "--out",
+        "outputs\\cleanroom\\stops-degree\\trials.tsv",
+        "--repeats",
+        "5"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.4517411999986507,
+      "output": "ca_bakersfield\n"
+    },
+    {
+      "command": [
+        ".\\experiments\\replay_subset.py",
+        "--corpus",
+        "transport",
+        "--limit",
+        "8",
+        "--repeats",
+        "1",
+        "--out",
+        "outputs\\cleanroom\\transport"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.3445843999506906,
+      "output": "10230-routes 1 9 exact answers\n82604-routes 15 9 exact answers\n83634-routes 3285 9 exact answers\n81870-trips 2 9 exact answers\n84114-trips 661 9 exact answers\n80921-trips 403029 9 exact answers\n39599-routes 1 9 exact answers\n79810-routes 1 9 exact answers\n{\"corpus\": \"transport\", \"snapshots\": 8, \"input_rows\": 406995, \"checked_dispatches\": 72, \"methods\": [\"sql_opt\", \"tree_direct\", \"bitmap_direct\", \"roaring_direct\", \"online_direct\", \"sql_opt_memo\", \"tree_direct_memo\", \"bitmap_direct_memo\", \"roaring_direct_memo\"]}\n"
+    },
+    {
+      "command": [
+        ".\\experiments\\replay_subset.py",
+        "--corpus",
+        "ci",
+        "--limit",
+        "8",
+        "--repeats",
+        "1",
+        "--out",
+        "outputs\\cleanroom\\ci"
+      ],
+      "returncode": 0,
+      "elapsed_s": 2.0385439000092447,
+      "output": "mdb-1018-routes 1 360 exact answers\nmdb-86-routes 15 360 exact answers\nmdb-2904-routes 8556 360 exact answers\nmdb-2165-trips 1 360 exact answers\nmdb-2794-trips 554 360 exact answers\nmdb-2898-trips 1433760 360 exact answers\nmdb-1162-routes 1 360 exact answers\nmdb-1179-routes 1 360 exact answers\n{\"corpus\": \"ci\", \"snapshots\": 8, \"input_rows\": 1442889, \"checked_dispatches\": 2880, \"methods\": [\"sql_opt\", \"tree_direct\", \"bitmap_direct\", \"roaring_direct\", \"online_direct\", \"sql_opt_memo\", \"tree_direct_memo\", \"bitmap_direct_memo\", \"roaring_direct_memo\"]}\n"
+    },
+    {
+      "command": [
+        ".\\experiments\\summarize.py",
+        "--root",
+        "outputs\\cleanroom",
+        "--out",
+        "outputs\\cleanroom\\summary"
+      ],
+      "returncode": 0,
+      "elapsed_s": 2.3650126000284217,
+      "output": "{\n  \"inputs\": [\n    \"ci\\\\trials.tsv\",\n    \"fcc\\\\original.tsv\",\n    \"fcc\\\\shuffled.tsv\",\n    \"file\\\\trials.tsv\",\n    \"sqlshare-file\\\\timings.tsv\",\n    \"sqlshare-resident\\\\timings.tsv\",\n    \"stops-degree\\\\trials.tsv\",\n    \"transport\\\\trials.tsv\"\n  ],\n  \"query_summary_rows\": 158,\n  \"amortization_rows\": 224,\n  \"row_degree_paid_rows\": 3,\n  \"memoization\": \"Compared only with references using the same result-cache policy\",\n  \"build_accounting\": \"One index build plus cumulative dispatched request time; common import reported separately\"\n}\n"
+    }
+  ]
+}

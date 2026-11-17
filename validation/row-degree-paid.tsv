@@ -1,0 +1,4 @@
+table	method	replicates	observed_requests	build_median_ms	query_median_ms	paid_median_ms	paid_p95_ms
+ca_bakersfield	counts	5	1	0.0	9.0304	9.0304	10.71286
+ca_bakersfield	degree	5	1	17.8255	2.2198	19.5747	24.39036
+ca_bakersfield	inline	5	1	0.0	12.0743	12.0743	12.2779

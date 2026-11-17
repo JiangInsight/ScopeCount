@@ -1,0 +1,13 @@
+dataset	method	row_groups	decoded	certified	skipped_words
+ca_bakersfield-week	merge	2	13	7	0
+ca_bakersfield-week	packed	2	13	7	0
+ca_bakersfield-week	boundary_pos	2	13	7	0
+ca_bakersfield-week	boundary	2	13	7	0
+co_aurora-week	merge	3	16	14	0
+co_aurora-week	packed	3	16	14	0
+co_aurora-week	boundary_pos	3	16	14	0
+co_aurora-week	boundary	3	16	14	0
+mn_saint_paul-week	merge	6	39	15	0
+mn_saint_paul-week	packed	6	39	15	0
+mn_saint_paul-week	boundary_pos	6	39	15	0
+mn_saint_paul-week	boundary	6	39	15	0

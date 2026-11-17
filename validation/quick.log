@@ -1,0 +1,118 @@
+79 archived files verified
+Verified 5833 files
+{
+  "tables": 2290,
+  "verified": {
+    "transport": {
+      "rows": 3581416,
+      "scope_calls": 1064,
+      "values": 2128
+    },
+    "ci": {
+      "rows": 6733663,
+      "scope_calls": 49040,
+      "values": 170280
+    }
+  }
+}
+288 ordered full-result comparisons against native SQL passed
+240 weighted grouped answers matched native relational aggregation
+checked 664 binary tables and 664 distinct measured-cell schedules
+96 wide-score results agree on clipped and complete pages.
+All encoded-stream, footer, grouping and half-open slice regressions passed.
+120 file-to-result slice checks passed.
+Checked shuffled row IDs, rejected invalid IDs, empty input, word boundaries, high-bit and duplicate predicates, empty slices and result-cache reuse.
+Checked shuffled row IDs, rejected invalid IDs, empty input, word boundaries, high-bit and duplicate predicates, empty slices and result-cache reuse.
+Verified 145781 labeled slices plus tie cases.
+
+Verified 64 canonical run sequences, 91850 measurement schedules and the ten-run example.
+
+Reoptimized range reads, indexed by purchased mask: [3, 2, 2, 2, 2, 1, 1, 0]
+verified prefixes 240 base activations 24 max ratio 1.8082
+bts 1 snapshots 720 records
+ci-fresh 128 snapshots 230400 records
+ci-memo 1226 snapshots 735600 records
+ci-order 128 snapshots 76800 records
+ci-pair 1226 snapshots 490400 records
+engine 8 snapshots 218880 records
+matched_engine 8 snapshots 300 records
+pan-direct 1064 snapshots 31920 records
+pan-order 128 snapshots 1920 records
+pan-runs 1064 snapshots 37240 records
+roaring-bts 1 snapshots 540 records
+roaring-ci 128 snapshots 76800 records
+roaring-domains 8 snapshots 34560 records
+Verified 1936080 timed method-request observations
+{'records': 675, 'requests': 27, 'groups': 13, 'rows': 926833, 'paid_ms': {'metadata_star': 139.14499999999998, 'rows': 172.15470000000002, 'runs': 167.4272, 'sql': 130.2778, 'stream': 162.08249999999998}, 'full_count_queries': 11, 'wins_rows': 7, 'alltrials_rows': 1, 'wins_stream': 8, 'alltrials_stream': 1, 'wins_sql': 0, 'alltrials_sql': 0, 'wins_metadata_star': 0, 'alltrials_metadata_star': 0}
+method   metadata_star     rows     runs     sql   stream
+dataset                                                  
+q10320           0.374    1.830    1.966   0.482    2.012
+q1574            0.227    0.970    0.952   0.281    0.976
+q1575            0.241    0.858    0.879   0.255    0.878
+q1576            0.205    0.910    0.969   0.250    1.018
+q19666           8.617    8.906   11.301   8.766   10.479
+q19673           7.347   10.288    8.532   7.386    8.114
+q19967           0.537    1.776    1.775   0.564    1.828
+q20100          92.260  108.415  103.230  87.851  101.963
+q20410          10.428   10.859   11.625   7.270    9.082
+q3122           17.149   20.737   19.814  15.310   19.290
+q3126            0.261    0.977    0.931   0.268    0.976
+q4643            0.776    2.256    2.119   0.753    2.418
+q7007            0.722    3.373    3.332   0.843    3.048
+{'records': 675, 'requests': 27, 'groups': 13, 'rows': 926833, 'paid_ms': {'dense': 398.2981, 'endpoint': 232.1835, 'metadata_star': 151.94960000000003, 'roaring': 385.3372, 'sql': 156.68619999999999}, 'full_count_queries': 11, 'wins_dense_sql': 3, 'wins_dense_metadata_star': 1, 'wins_roaring_sql': 3, 'wins_roaring_metadata_star': 0, 'wins_endpoint_sql': 2, 'wins_endpoint_metadata_star': 1, 'extension_sha256': 'c33fefe18defc3029000b9548a7169f0ceb91e5409f3ee04538417dc43b31990'}
+method     dense  endpoint  metadata_star  roaring      sql
+dataset                                                    
+q10320     1.027     1.048          0.963    1.030    1.111
+q1574      0.739     0.558          0.516    0.587    0.504
+q1575      0.565     0.547          0.469    0.562    0.534
+q1576      0.555     0.544          0.481    0.606    0.512
+q19666    23.082    13.298          9.289   24.107    9.569
+q19673    20.552    14.068          7.712   20.486    8.693
+q19967     1.319     1.184          1.044    1.301    1.050
+q20100   253.495   150.204        103.841  244.932  105.968
+q20410    25.528    14.613          8.670   23.982    9.429
+q3122     67.129    31.996         15.332   62.733   14.647
+q3126      0.542     0.593          0.498    0.520    0.758
+q4643      1.469     1.584          1.557    2.050    2.049
+q7007      2.296     1.947          1.578    2.440    1.863
+original {'rows': 25.649, 'runs': 14.771, 'sql': 28.387, 'stream': 18.735}
+shuffled {'rows': 23.516, 'runs': 27.9, 'sql': 53.085, 'stream': 37.425}
+fcc 11
+ca_bakersfield-week 523
+ca_bakersfield week 523 187226 {'sql_count': 1.63, 'sql_row': 3.9, 'scope_rows': 2.04, 'scope_stream': 2.85, 'scope_runs': 2.09, 'scope_wrows': 1.78, 'scope_wliteral': 1.64, 'scope_wmargin': 1.68, 'scope_weight': 1.74, 'row_degree': 0.96}
+ca_bakersfield
+10230-routes 1 9 exact answers
+82604-routes 15 9 exact answers
+83634-routes 3285 9 exact answers
+81870-trips 2 9 exact answers
+84114-trips 661 9 exact answers
+80921-trips 403029 9 exact answers
+39599-routes 1 9 exact answers
+79810-routes 1 9 exact answers
+{"corpus": "transport", "snapshots": 8, "input_rows": 406995, "checked_dispatches": 72, "methods": ["sql_opt", "tree_direct", "bitmap_direct", "roaring_direct", "online_direct", "sql_opt_memo", "tree_direct_memo", "bitmap_direct_memo", "roaring_direct_memo"]}
+mdb-1018-routes 1 360 exact answers
+mdb-86-routes 15 360 exact answers
+mdb-2904-routes 8556 360 exact answers
+mdb-2165-trips 1 360 exact answers
+mdb-2794-trips 554 360 exact answers
+mdb-2898-trips 1433760 360 exact answers
+mdb-1162-routes 1 360 exact answers
+mdb-1179-routes 1 360 exact answers
+{"corpus": "ci", "snapshots": 8, "input_rows": 1442889, "checked_dispatches": 2880, "methods": ["sql_opt", "tree_direct", "bitmap_direct", "roaring_direct", "online_direct", "sql_opt_memo", "tree_direct_memo", "bitmap_direct_memo", "roaring_direct_memo"]}
+{
+  "inputs": [
+    "ci\\trials.tsv",
+    "fcc\\original.tsv",
+    "fcc\\shuffled.tsv",
+    "file\\trials.tsv",
+    "sqlshare-file\\timings.tsv",
+    "sqlshare-resident\\timings.tsv",
+    "stops-degree\\trials.tsv",
+    "transport\\trials.tsv"
+  ],
+  "query_summary_rows": 158,
+  "amortization_rows": 224,
+  "row_degree_paid_rows": 3,
+  "memoization": "Compared only with references using the same result-cache policy",
+  "build_accounting": "One index build plus cumulative dispatched request time; common import reported separately"
+}
